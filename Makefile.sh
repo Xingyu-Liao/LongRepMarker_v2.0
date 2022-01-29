@@ -112,7 +112,8 @@ chmod 777 -R ./programs
 chmod 777 -R ./alignment
 chmod 777 -R ./readfile
 chmod 777 -R ./log 
-chmod 777 -R ./results 
+chmod 777 -R ./results
+chmod 777 -R ./tools
 
 #Install-dsk
 echo "-------------------------------------------------------------------------------"
