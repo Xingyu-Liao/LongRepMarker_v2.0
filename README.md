@@ -162,9 +162,9 @@ Output
 >> ~/LongRepMarker/Results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i></br> 
 >> ~/LongRepMarker/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
->> <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i></br>   
+>> <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i>  
 >> ~/LongRepMarker/log/Time&Memory&Disk.info.info       &nbsp;&nbsp;&nbsp;  </br></br>
->> <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i></br>  
+>> <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i>
 >> ~/LongRepMarker/log/Exception.info    &nbsp;&nbsp;&nbsp;  </br></br>  
 >> <i><b>#Combined detection results of TEs and tandem repeats.</b></i></br>
 >> ~/LongRepMarker/Results/multiRepeatCopies_trf.fa         &nbsp;&nbsp;&nbsp;  </br></br>
