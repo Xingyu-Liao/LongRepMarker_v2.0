@@ -46,6 +46,7 @@ cp  ./tools/scripts/karect       ./programs/scripts/
 cp  ./tools/scripts/bwa       ./programs/scripts/
 
 #Unzip-all
+rm -rf ./tools
 unzip  unzip -o -d ./tools ./tools.zip
 
 #Unzip-bowtie2
