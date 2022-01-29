@@ -10,7 +10,7 @@ Improvements
 Latest Version (v2.0)
 ==============
 
-The latest version of LongRepMarker (https://github.com/Xingyu-Liao/LongRepMarker_v2.0) was released on January 28, 2022. 
+The latest version of LongRepMarker was released on github (https://github.com/Xingyu-Liao/LongRepMarker_v2.0) and google drive (https://drive.google.com/drive/folders/1T0XK5RJMeLqp0CTbOEHcrfj9z3iyVyKj?usp=sharing) respectively on January 28, 2022. 
 
 
 Author
