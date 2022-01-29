@@ -178,8 +178,8 @@ Output
 >> ~/LongRepMarker/Results/multiRepeatCopies_trf.fa         &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A report that records the structural variations present in the detected repetitive sequences.</b></i></br>
 >> ~/LongRepMarker/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
->> <i><b>#The final consistent repetitive sequences obtained after the consensus operation.</b></i></br>   
->> ~/LongRepMarker/Results/finalRepeatConsensus.fa        &nbsp;&nbsp;&nbsp;    </br></br>
+>> <i><b>#The final consistent repetitive sequences obtained after the consensus operation.</b></i></br> 
+>> ~/LongRepMarker/Results/finalRepeatConsensus.fa  &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#The final consistent repetitive sequences with classification information.</b></i></br>
 >> ~/LongRepMarker/Results/finalRepeatConsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#All log files can be found in the following derictory.</b></i></br>
