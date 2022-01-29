@@ -45,7 +45,7 @@ cp  ./tools/scripts/bwa       ./programs/scripts/
 
 #Unzip-all
 rm -rf ./tools
-unzip  unzip -o -d ./tools ./tools.zip
+unzip -o -d ./ ./tools.zip  >  ./log/tools.unzip.log
 
 #Unzip-bowtie2
 rm -rf ./programs/bowtie2-2.4.4
