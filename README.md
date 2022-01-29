@@ -30,7 +30,7 @@ Downloading LongRepMarker_v2.0
 >> sudo apt-get install git-lfs </br>
 >> git lfs install</br>
  
-<li>Clone </br>
+<li>Clone project</br>
 
 >> git clone https://github.com/Xingyu-Liao/LongRepMarker_v2.0.git </br>
 
