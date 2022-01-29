@@ -40,7 +40,7 @@ Downloading LongRepMarker_v2.0
 >> GitHub Pages sites have a bandwidth limit of 100GB or 100,000 requests per month. </br>
 >> GitHub Pages sites have a limit of 10 builds per hour. </br>
 >> If the compressed file "tools.zip" fails to download due to traffic restrictions, please turn to </br>
->> google drive （https://drive.google.com/drive/folders/1T0XK5RJMeLqp0CTbOEHcrfj9z3iyVyKj?usp=sharing） to download. </br>
+>> google drive （https://drive.google.com/drive/folders/1T0XK5RJMeLqp0CTbOEHcrfj9z3iyVyKj?usp=sharing) to download. </br>
 
 Installation and running of LongRepMarker_v2.0 
 ==================================
