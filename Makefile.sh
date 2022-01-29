@@ -35,6 +35,10 @@ echo "perl is ok."
 which cmake || { echo "cmake is not found"; exit 1; } 
 echo "cmake is ok."
 
+#Unzip-all
+rm -rf ./tools
+unzip -o -d ./ ./tools.zip  >  ./log/tools.unzip.log
+
 #Unzip-dsk
 rm -rf ./programs/scripts
 mkdir  ./programs/scripts
@@ -42,10 +46,6 @@ cp  ./tools/scripts/dsk          ./programs/scripts/
 cp  ./tools/scripts/dsk2ascii    ./programs/scripts/
 cp  ./tools/scripts/karect       ./programs/scripts/
 cp  ./tools/scripts/bwa       ./programs/scripts/
-
-#Unzip-all
-rm -rf ./tools
-unzip -o -d ./ ./tools.zip  >  ./log/tools.unzip.log
 
 #Unzip-bowtie2
 rm -rf ./programs/bowtie2-2.4.4
