@@ -22,6 +22,10 @@ Computer, Electrical and Mathematical Sciences and Engineering Division, </br>
 King Abdullah University of Science and Technology (KAUST), </br>
 Thuwal, 23955, Saudi Arabia.  </br>
 
+Downloading LongRepMarker_v2.0 
+==================================
+ git clone https://github.com/Xingyu-Liao/LongRepMarker_v2.0.git
+ git lfs clone https://git-lfs.github.com/spec/v1
 
 Installation and running of LongRepMarker_v2.0 
 ==================================
