@@ -156,18 +156,24 @@ Output
 
 >> <i><b>#A statistical report that records the alignment of the detected repetitive sequences. </b></i> </br>
 >> ~/LongRepMarker/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
->> 
-<i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
+>> <i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
 >> ~/LongRepMarker/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
->> 
->> ~/LongRepMarker/Results/Size_report.info       &nbsp;&nbsp;&nbsp;    <i><b>#A statistical report that records the size of the detected repetitive sequences.</b></i> </br>
->> ~/LongRepMarker/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp;    <i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i> </br>
->> ~/LongRepMarker/log/Time&Memory&Disk.info.info       &nbsp;&nbsp;&nbsp;    <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i> </br>
->> ~/LongRepMarker/log/Exception.info    &nbsp;&nbsp;&nbsp;    <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i> </br>
->> ~/LongRepMarker/Results/multiRepeatCopies_trf.fa         &nbsp;&nbsp;&nbsp;     <i><b>#Combined detection results of TEs and tandem repeats.</b></i> </br>
->> ~/LongRepMarker/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;     <i><b>#A report that records the structural variations present in the detected repetitive sequences.</b></i> </br>
->> ~/LongRepMarker/Results/finalRepeatConsensus.fa        &nbsp;&nbsp;&nbsp;       <i><b>#The final consistent repetitive sequences obtained after the consensus operation.</b></i> </br>
->> ~/LongRepMarker/Results/finalRepeatConsensus.fa.classified   &nbsp;&nbsp;&nbsp;  <i><b>#The final consistent repetitive sequences with classification information.</b></i> </br>
+>> <i><b>#A statistical report that records the size of the detected repetitive sequences.</b></i> </br></br>
+>> ~/LongRepMarker/Results/Size_report.info       &nbsp;&nbsp;&nbsp;  
+>> <i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i> </br></br>  
+>> ~/LongRepMarker/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; 
+>> <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i> </br></br>   
+>> ~/LongRepMarker/log/Time&Memory&Disk.info.info       &nbsp;&nbsp;&nbsp;  
+>> <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i> </br></br>  
+>> ~/LongRepMarker/log/Exception.info    &nbsp;&nbsp;&nbsp;    
+>> <i><b>#Combined detection results of TEs and tandem repeats.</b></i> </br></br>
+>> ~/LongRepMarker/Results/multiRepeatCopies_trf.fa         &nbsp;&nbsp;&nbsp;  
+>> <i><b>#A report that records the structural variations present in the detected repetitive sequences.</b></i> </br></br>
+>> ~/LongRepMarker/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   
+>>  <i><b>#The final consistent repetitive sequences obtained after the consensus operation.</b></i> </br></br>   
+>> ~/LongRepMarker/Results/finalRepeatConsensus.fa        &nbsp;&nbsp;&nbsp;    
+>> <i><b>#The final consistent repetitive sequences with classification information.</b></i> </br></br>  
+>> ~/LongRepMarker/Results/finalRepeatConsensus.fa.classified   &nbsp;&nbsp;&nbsp;  
 	   
 
 Citation 
