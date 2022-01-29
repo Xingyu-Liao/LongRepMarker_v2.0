@@ -37,9 +37,7 @@ echo "cmake is ok."
 
 #Unzip-dsk
 rm -rf ./programs/scripts
-rm   -rf     ./programs/corePrograms
 mkdir  ./programs/scripts
-mkdir  ./programs/corePrograms
 cp  ./tools/scripts/dsk          ./programs/scripts/
 cp  ./tools/scripts/dsk2ascii    ./programs/scripts/
 cp  ./tools/scripts/karect       ./programs/scripts/
