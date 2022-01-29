@@ -154,8 +154,10 @@ Output
 
 <li>The following detailed reports will be generated in the final detection results.</li> </br>
 
->> ~/LongRepMarker/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  <i><b>#A statistical report that records the alignment of the detected repetitive sequences. </b></i> </br>
->> ~/LongRepMarker/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; <i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
+<i><b>#A statistical report that records the alignment of the detected repetitive sequences. </b></i> </br>
+>> ~/LongRepMarker/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br>
+<i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
+>> ~/LongRepMarker/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br>
 >> ~/LongRepMarker/Results/Size_report.info       &nbsp;&nbsp;&nbsp;    <i><b>#A statistical report that records the size of the detected repetitive sequences.</b></i> </br>
 >> ~/LongRepMarker/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp;    <i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i> </br>
 >> ~/LongRepMarker/log/Time&Memory&Disk.info.info       &nbsp;&nbsp;&nbsp;    <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i> </br>
