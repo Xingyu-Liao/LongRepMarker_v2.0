@@ -24,8 +24,13 @@ Thuwal, 23955, Saudi Arabia.  </br>
 
 Downloading LongRepMarker_v2.0 
 ==================================
- git clone https://github.com/Xingyu-Liao/LongRepMarker_v2.0.git </br>
- git lfs clone https://git-lfs.github.com/spec/v1 </br>
+<li>Install git lfs </br>
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash </br>
+sudo apt-get install git-lfs </br>
+git lfs install</br>
+ 
+<li>Clone </br>
+git clone https://github.com/Xingyu-Liao/LongRepMarker_v2.0.git </br>
 
 Installation and running of LongRepMarker_v2.0 
 ==================================
