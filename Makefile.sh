@@ -278,7 +278,7 @@ cp  ./tools/src/*.py   ./
 mv  ./tools/src/*.class  ./
 echo $(pwd)"/programs/"
 echo "All java programs are compiled." 
-
+rm -rf ./tools.zip
 echo "-------------------------------------------------------------------------------"
 echo "    "
 echo "LongRepMarker_v2.0 has been sucessfully installed. Thanks!"
