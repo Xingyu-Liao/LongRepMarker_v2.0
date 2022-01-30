@@ -43,8 +43,8 @@ unzip -o -d ./ ./tools.zip  >  ./log/tools.unzip.log
 rm -rf ./programs/scripts
 mkdir  ./programs/scripts
 cp  ./tools/scripts/dsk          ./programs/scripts/
-cp  ./tools/scripts/dsk2ascii    ./programs/scripts/
-cp  ./tools/scripts/karect       ./programs/scripts/
+cp  ./tools/scripts/dsk2ascii   ./programs/scripts/
+cp  ./tools/scripts/karect     ./programs/scripts/
 cp  ./tools/scripts/bwa       ./programs/scripts/
 
 #Unzip-bowtie2
