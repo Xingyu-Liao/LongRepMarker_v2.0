@@ -143,7 +143,7 @@ Installation and running of LongRepMarker_v2.0
 
 >> >> java &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -q1 < read1.fq > &nbsp; -q2 < read2.fq > &nbsp; -S < CCS/HiFi.fq > &nbsp; -k [ 49 ] &nbsp; -m [ 5000 ] &nbsp; -f [ reference.fa ] &nbsp; -t [ 36 ] &nbsp; -o [ /home/finalResults/ ] &nbsp; [options]
 >> >> 
->> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -q1  /home/.../read1.fq  &nbsp;  -q2  /home/.../read2.fq  &nbsp; -S  /home/.../CCS/HiFi.fq  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -f /home/.../reference.fa &nbsp; -o /home/.../Results/
+>> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -q1  /home/.../read1.fq  &nbsp;  -q2  /home/.../read2.fq  &nbsp; -S  /home/.../CCS.fq | HiFi.fq  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -f /home/.../reference.fa &nbsp; -o /home/.../Results/
 	    
 >> <b><li><i>de novo</i> mode based on NGS short paired-end reads + Nanopore long reads</li></b>
 
@@ -154,16 +154,24 @@ Installation and running of LongRepMarker_v2.0
 >> <b><li><i>de novo</i> mode only based on Pacbio/CCS/HiFi long reads</li></b>
 		
 >> >> java &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -P < Pacbio.fq > &nbsp; -k [ 49 ] &nbsp; -m [ 5000 ] &nbsp; -f [ reference.fa ] &nbsp; -t [ 36 ] &nbsp; -o [ /home/finalResults/ ] &nbsp; [options]
+>> >> 
+>> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -P  /home/.../pacbio.fq &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -f /home/.../reference.fa &nbsp; -o /home/.../Results/
 
 >> >> java &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -S < CCS/HiFi.fq > &nbsp; -k [ 49 ] &nbsp; -m [ 5000 ] &nbsp; -f [ reference.fa ] &nbsp; -t [ 36 ] &nbsp; -o [ /home/finalResults/ ] &nbsp; [options]
+>> >> 
+>> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -P  /home/.../ccs.fq | HiFi.fq &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -f /home/.../reference.fa &nbsp; -o /home/.../Results/
 
 >> <b><li><i>de novo</i> mode only based on Nanopore long reads</li></b>
 
 >> >> java &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -N < Nanopore.fq > &nbsp; -k [ 49 ] &nbsp; -m [ 5000 ] &nbsp; -f [ reference.fa ] &nbsp; -t [ 36 ] &nbsp; -o [ /home/finalResults/ ] &nbsp; [options]
+>> >> 
+>> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -N  /home/.../Nanopore.fq | HiFi.fq &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -f /home/.../reference.fa &nbsp; -o /home/.../Results/
 	
 >> <b><li>When dealing large datasets in the <i>de novo</i> mode &nbsp; (&nbsp;Take <i>de novo</i> mode only based on NGS short paired-end reads as an example &nbsp;)</li></b>
 
 >> >> java &nbsp;&nbsp; -Xmx300G &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -q1 < read1.fq > &nbsp; -q2 < read2.fq > &nbsp; -k [ 49 ] &nbsp; -m [ 100 ] &nbsp; -f [ reference.fa ] &nbsp; -t [ 36 ] &nbsp; -o [ /home/finalResults/ ] &nbsp; [options]
+>> >> 
+>> >> E.g., &nbsp; java  &nbsp;&nbsp; -Xmx300G &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -q1  /home/.../read1.fq  &nbsp;  -q2  /home/.../read2.fq  &nbsp; -q3  /home/.../read3.fq  &nbsp;  -q4  /home/.../read4.fq  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -f /home/.../reference.fa &nbsp; -o /home/.../Results/
 		
 Output 
 ==================================
