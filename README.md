@@ -126,7 +126,8 @@ Installation and running of LongRepMarker_v2.0
 >> <b><li>Reference-assisted mode</li></b>
 
 >> >> java &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r <reference.fa | assemblies.fa> &nbsp; -k [49] &nbsp; -m [100] &nbsp; -t [36] &nbsp; -o [/home/finalResults/] &nbsp; [options] 
->> >> E.g.,  java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/
+>> >> 
+>> >> &nbsp;&nbsp; E.g.,  java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/
 	    
 >> <b><li><i>de novo</i> mode only based on NGS short paired-end reads</li></b> 
 
