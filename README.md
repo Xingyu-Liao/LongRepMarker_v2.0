@@ -1,6 +1,6 @@
 Description
 ==============
-
+The new version of the detection mode only based on third-generation sequencing reads is currently being debugged. Once the debugging is completed, we will make it online as soon as possible. Thanks!
 
 Improvements
 ==============
