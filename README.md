@@ -83,18 +83,31 @@ Installation and running of LongRepMarker_v2.0
 [options]
 
 >> -r    &nbsp;&nbsp;&nbsp;  <i><b>#The reference file or the assemblies file (This parameter is only used in reference-assisted mode).</b></i></br>
+>> 
 >> -k    &nbsp;&nbsp;&nbsp;  <i><b>#The k-mer size used in detection (Default: 49).</b></i></br>
+>> 
 >> -e    &nbsp;&nbsp;&nbsp;  <i><b>#This parameter controls whether the short reads error correction is executed (Default: 'yes').</b></i></br>
+>> 
 >> -E    &nbsp;&nbsp;&nbsp;  <i><b>#This parameter controls whether the long reads error correction is executed (Default: 'yes').</b></i></br>
+>> 
 >> -c    &nbsp;&nbsp;&nbsp;  <i><b>#The coverage threshold which is used to filter the low coverage overlaps (Default: 1.5).</b></i></br>
+>> 
 >> -t    &nbsp;&nbsp;&nbsp;  <i><b>#The number of threads (Default: 36).</b></i></br>
+>> 
 >> -R    &nbsp;&nbsp;&nbsp;  <i><b>#The local alignment mode (Default: sensitive).</b></i></br>
+>> 
 >> -sensitive  &nbsp;&nbsp;&nbsp;  <i><b>#The sensitivity of overlaps filtering (Default: 0.4).</b></i></br>
+>> 
 >> -w   &nbsp;&nbsp;&nbsp;  <i><b>#The size of sliding window for overlaps filtering (Default: 30bp).</b></i></br>
+>> 
 >> -L   &nbsp;&nbsp;&nbsp;  <i><b>#The known genome size.</b></i></br>
+>> 
 >> -C   &nbsp;&nbsp;&nbsp;  <i><b>#The known average coverage of long reads.</b></i></br>
+>> 
 >> -lenDis  &nbsp;&nbsp;&nbsp;  <i><b>#Sequence length threshold for alignment mode selection (Default: 1000bp, when the length of the sequence is less than 1000, the short sequence alignment mode is selected, on the contrary, the long sequence alignment mode is selected).</b></i></br>
+>> 
 >> -hs_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 0).</b></i></br>
+>> 
 >> -id_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 20).</b></i></br>
 >> 
 >> -Match, -Mismatch and -Delta &nbsp;&nbsp;&nbsp;  <i><b>#Weights for match, mismatch and indels. These parameters are for Smith-Waterman style local alignment using wraparound dynamic programming. Lower weights allow alignments with more mismatches and indels. A match weight of 2 has proven effective with mismatch and indel penalties in the range of 3 to 7. Mismatch and indel weights are interpreted as negative numbers. A 3 is more permissive and a 7 less permissive. The recomended values for Match Mismatch and Delta are 2, 7, and 7 respectively.</b></i></br>
