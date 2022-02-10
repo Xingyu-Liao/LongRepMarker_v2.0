@@ -93,7 +93,7 @@ Installation and running of LongRepMarker_v2.0
 >> -w   &nbsp;&nbsp;&nbsp;  <i><b>#The size of sliding window for overlaps filtering (Default: 30bp).</b></i></br>
 >> -L   &nbsp;&nbsp;&nbsp;  <i><b>#The known genome size.</b></i></br>
 >> -C   &nbsp;&nbsp;&nbsp;  <i><b>#The known average coverage of long reads.</b></i></br>
->> -lenDis  &nbsp;&nbsp;&nbsp;  <i><b>#Sequence length threshold for alignment mode selection (Default: 1000bp, When the length of the sequence is less than 1000, the short sequence alignment mode is selected, on the contrary, the long read alignment mode is selected. ).</b></i></br>
+>> -lenDis  &nbsp;&nbsp;&nbsp;  <i><b>#Sequence length threshold for alignment mode selection (Default: 1000bp, when the length of the sequence is less than 1000, the short sequence alignment mode is selected, on the contrary, the long sequence alignment mode is selected).</b></i></br>
 >> -hs_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 0).</b></i></br>
 >> -id_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 20).</b></i></br>
 >> -Match &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 2).</b></i></br>
