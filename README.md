@@ -120,6 +120,7 @@ Installation and running of LongRepMarker_v2.0
 >> -f  &nbsp;&nbsp;  <i><b>#The reference genome used for detection results evaluation.</b></i></br>
 >> -species &nbsp;&nbsp;&nbsp;  <i><b>#The scientific name of the species being detected (only used in detection results evaluation).</b></i></br>
 >> -o  &nbsp;&nbsp;  <i><b>#The directory used to save the final detection results.</b></i></br>
+>> -help &nbsp;&nbsp;  <i><b>#Instructions for using command and parameters.</b></i></br>
 	
 ### Examples of using LongRepMarker_v2.0 
    
