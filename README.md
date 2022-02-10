@@ -94,7 +94,7 @@ Installation and running of LongRepMarker_v2.0
 >> 
 >> -t    &nbsp;&nbsp;&nbsp;  <i><b>#The number of threads (Default: 36).</b></i></br>
 >> 
->> -R    &nbsp;&nbsp;&nbsp;  <i><b>#The local alignment mode (Default: sensitive).</b></i></br>
+>> -R    &nbsp;&nbsp;&nbsp;  <i><b>#The local alignment mode (very fast, fast, sensitive and very senstitive. Default: sensitive).</b></i></br>
 >> 
 >> -sensitive  &nbsp;&nbsp;&nbsp;  <i><b>#The sensitivity of overlaps filtering (Default: 0.4, the larger the value, the more overlaps are filtered, and the greater the probability that the resulting overlaps are repeating sequences).</b></i></br>
 >> 
