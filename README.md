@@ -96,13 +96,10 @@ Installation and running of LongRepMarker_v2.0
 >> -lenDis  &nbsp;&nbsp;&nbsp;  <i><b>#Sequence length threshold for alignment mode selection (Default: 1000bp, when the length of the sequence is less than 1000, the short sequence alignment mode is selected, on the contrary, the long sequence alignment mode is selected).</b></i></br>
 >> -hs_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 0).</b></i></br>
 >> -id_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 20).</b></i></br>
->> -Match &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 2).</b></i></br>
->> -Mismatch &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 7).</b></i></br>
->> -Delta &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 7).</b></i></br>
->> -PM &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 80).</b></i></br>
->> -PI &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 10).</b></i></br>
->> -Minscore &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 50).</b></i></br>
->> -MaxPeriod &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 500).</b></i></br>
+>> -Match, -Mismatch and -Delta &nbsp;&nbsp;&nbsp;  <i><b>#Weights for match, mismatch and indels. These parameters are for Smith-Waterman style local alignment using wraparound dynamic programming. Lower weights allow alignments with more mismatches and indels. A match weight of 2 has proven effective with mismatch and indel penalties in the range of 3 to 7. Mismatch and indel weights are interpreted as negative numbers. A 3 is more permissive and a 7 less permissive. The recomended values for Match Mismatch and Delta are 2, 7, and 7 respectively.</b></i></br>
+>> -PM and -PI &nbsp;&nbsp;&nbsp;  <i><b>#Probabilistic data is available for PM values of 80 and 75 and PI values of 10 and 20. The best performance can be achieved with values of PM=80 and PI=10. Values of PM=75 and PI=20 give results which are very similar, but often require as much as ten times the processing time when compared with values of PM=80 and PI=10.</b></i></br>
+>> -Minscore &nbsp;&nbsp;&nbsp;  <i><b>#The alignment of a tandem repeat must meet or exceed this alignment score to be reported. For example, if we set the matching weight to 2 and the minimun score to 50, assuming perfect alignment, we will need to align at least 25 characters to meet the minimum score (for example 5 copies with a period of size 5).</b></i></br>
+>> -MaxPeriod &nbsp;&nbsp;&nbsp;  <i><b>#Period size is the program's best guess at the pattern size of the tandem repeat. The program will find all repeats with period size between 1 and 2000, but the output can be limited to a smaller range.</b></i></br>
 >> -m   &nbsp;&nbsp;  <i><b>#The minimum length of the detected overlap sequences (Default: 100bp).</b></i></br>
 >> -q1  &nbsp;&nbsp;  <i><b>#The file with left reads for the 1-th paired-end reads.</b></i></br>
 >> -q2  &nbsp;&nbsp;  <i><b>#The file with right reads for the 1-th paired-end reads.</b></i></br>
