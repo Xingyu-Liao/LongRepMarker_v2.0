@@ -11,6 +11,7 @@ rm -rf ./alignment
 rm -rf ./readfile
 rm -rf ./results
 rm -rf ./programs 
+rm -rf ./Nanopore 
 rm -rf ./log
 rm -rf ./__pycache__
 
@@ -35,17 +36,16 @@ echo "perl is ok."
 which cmake || { echo "cmake is not found"; exit 1; } 
 echo "cmake is ok."
 
-#Unzip-all
-rm -rf ./tools
-unzip -o -d ./ ./tools.zip  >  ./log/tools.unzip.log
-
 #Unzip-dsk
 rm -rf ./programs/scripts
+rm   -rf     ./programs/corePrograms
 mkdir  ./programs/scripts
+mkdir  ./programs/corePrograms
 cp  ./tools/scripts/dsk          ./programs/scripts/
-cp  ./tools/scripts/dsk2ascii   ./programs/scripts/
-cp  ./tools/scripts/karect     ./programs/scripts/
+cp  ./tools/scripts/dsk2ascii    ./programs/scripts/
+cp  ./tools/scripts/karect       ./programs/scripts/
 cp  ./tools/scripts/bwa       ./programs/scripts/
+
 
 #Unzip-bowtie2
 rm -rf ./programs/bowtie2-2.4.4
@@ -66,6 +66,11 @@ mv  ./tools/unzip_RMblast.log  ./log/
 rm -rf ./programs/Classifier
 unzip -o -d ./programs/ ./tools/Classifier.zip   >  ./tools/unzip_classifier.log
 mv  ./tools/unzip_classifier.log  ./log/
+
+#Unzip-necat
+rm -rf ./programs/necat
+unzip -o -d ./programs/ ./tools/necat.zip   >  ./tools/unzip_necat.log
+mv  ./tools/unzip_necat.log  ./log/
 
 #Unzip-TRF
 rm -rf ./programs/TRF-master
@@ -112,8 +117,7 @@ chmod 777 -R ./programs
 chmod 777 -R ./alignment
 chmod 777 -R ./readfile
 chmod 777 -R ./log 
-chmod 777 -R ./results
-chmod 777 -R ./tools
+chmod 777 -R ./results 
 
 #Install-dsk
 echo "-------------------------------------------------------------------------------"
@@ -278,8 +282,13 @@ cp  ./tools/src/*.py   ./
 mv  ./tools/src/*.class  ./
 echo $(pwd)"/programs/"
 echo "All java programs are compiled." 
-rm -rf ./tools.zip
 echo "-------------------------------------------------------------------------------"
 echo "    "
+#Edit permission
+chmod 777 -R ./programs
+chmod 777 -R ./alignment
+chmod 777 -R ./readfile
+chmod 777 -R ./log 
+chmod 777 -R ./results
 echo "LongRepMarker_v2.0 has been sucessfully installed. Thanks!"
 echo "    "
