@@ -108,7 +108,7 @@ Installation and running of LongRepMarker_v2.0
 >> 
 >> -hs_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 0).</b></i></br>
 >> 
->> -id_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 20).</b></i></br>
+>> -id_gap &nbsp;&nbsp;&nbsp;  <i><b>#Maximum gap size allowed during the chimera removal (Default: 20, when the size of the gap is larger than 20bp, the gap will be cut).</b></i></br>
 >> 
 >> -Match, -Mismatch and -Delta &nbsp;&nbsp;&nbsp;  <i><b>#Weights for match, mismatch and indels. These parameters are for Smith-Waterman style local alignment using wraparound dynamic programming. Lower weights allow alignments with more mismatches and indels. A match weight of 2 has proven effective with mismatch and indel penalties in the range of 3 to 7. Mismatch and indel weights are interpreted as negative numbers. A 3 is more permissive and a 7 less permissive. The recomended values for Match Mismatch and Delta are 2, 7, and 7 respectively.</b></i></br>
 >> 
