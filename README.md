@@ -106,7 +106,7 @@ Installation and running of LongRepMarker_v2.0
 >> 
 >> -lenDis  &nbsp;&nbsp;&nbsp;  <i><b>#Sequence length threshold for alignment mode selection (Default: 1000bp, when the length of the sequence is less than 1000bp, the short sequence alignment mode is selected, on the contrary, the long sequence alignment mode is selected).</b></i></br>
 >> 
->> -hs_gap &nbsp;&nbsp;&nbsp;  <i><b>#The length threshold for alignment mode selection (Default: 0).</b></i></br>
+>> -hs_gap &nbsp;&nbsp;&nbsp;  <i><b>#Maximum gap size allowed during the mpurity removal (Default: 0).</b></i></br>
 >> 
 >> -id_gap &nbsp;&nbsp;&nbsp;  <i><b>#Maximum gap size allowed during the chimera removal (Default: 20bp, when the size of the gap is larger than 20bp, the gap will be cut).</b></i></br>
 >> 
