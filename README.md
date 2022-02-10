@@ -119,22 +119,39 @@ Installation and running of LongRepMarker_v2.0
 >> -MaxPeriod &nbsp;&nbsp;&nbsp;  <i><b>#Period size is the program's best guess at the pattern size of the tandem repeat. The program will find all repeats with period size between 1 and 2000, but the output can be limited to a smaller range.</b></i></br>
 >> 
 >> -m   &nbsp;&nbsp;  <i><b>#The minimum length of the detected overlap sequences (Default: 100bp).</b></i></br>
+>> 
 >> -q1  &nbsp;&nbsp;  <i><b>#The file with left reads for the 1-th paired-end reads.</b></i></br>
+>> 
 >> -q2  &nbsp;&nbsp;  <i><b>#The file with right reads for the 1-th paired-end reads.</b></i></br>
+>> 
 >> -q3  &nbsp;&nbsp;  <i><b>#The file with left reads for the 2-th paired-end reads.</b></i></br>
+>> 
 >> -q4  &nbsp;&nbsp;  <i><b>#The file with right reads for the 2-th paired-end reads.</b></i></br>
+>> 
 >> -q5  &nbsp;&nbsp;  <i><b>#The file with left reads for the 3-th paired-end reads.</b></i></br>
+>> 
 >> -q6  &nbsp;&nbsp;  <i><b>#The file with right reads for the 3-th paired-end reads.</b></i></br>
+>> 
 >> -q7  &nbsp;&nbsp;  <i><b>#The file with left reads for the 4-th paired-end reads.</b></i></br>
+>> 
 >> -q8  &nbsp;&nbsp;  <i><b>#The file with right reads for the 4-th paired-end reads.</b></i></br>
+>> 
 >> -q9  &nbsp;&nbsp;  <i><b>#The file with left reads for the 5-th paired-end reads.</b></i></br>
+>> 
 >> -q10   &nbsp;&nbsp;  <i><b>#The file with right reads for the 5-th paired-end reads.</b></i></br>
+>> 
 >> -P  &nbsp;&nbsp;  <i><b>#The Pacbio CLR long reads.</b></i></br>
+>> 
 >> -S  &nbsp;&nbsp;  <i><b>#The CCS/HiFi long reads.</b></i></br>
+>> 
 >> -N  &nbsp;&nbsp;  <i><b>#The Nanopore long reads.</b></i></br>
+>> 
 >> -f  &nbsp;&nbsp;  <i><b>#The reference genome used for detection results evaluation.</b></i></br>
+>> 
 >> -species &nbsp;&nbsp;&nbsp;  <i><b>#The scientific name of the species being detected (only used in detection results evaluation).</b></i></br>
+>> 
 >> -o  &nbsp;&nbsp;  <i><b>#The directory used to save the final detection results.</b></i></br>
+>> 
 >> -help &nbsp;&nbsp;  <i><b>#Instructions for using command and parameters.</b></i></br>
 	
 ### Examples of using LongRepMarker_v2.0 
