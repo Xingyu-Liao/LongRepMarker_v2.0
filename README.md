@@ -219,7 +219,7 @@ Output
 
 <li>The following detailed reports will be generated in the final detection results.</li> </br>
 
->> <i><b>#A statistical report that records the alignment of the detected repetitive sequences. </b></i> </br>
+>> <i><b>#A statistical report that records the alignment of the detected repetitive sequences in the genome. </b></i> </br>
 >> ~/LongRepMarker/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
 >> ~/LongRepMarker/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
