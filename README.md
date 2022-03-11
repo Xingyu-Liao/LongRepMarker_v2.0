@@ -223,27 +223,29 @@ Output
 <li>The following detailed reports will be generated in the final detection results.</li> </br>
 
 >> <i><b>#A statistical report that records the alignment of the detected repetitive sequences in the genome. </b></i> </br>
->> ~/LongRepMarker/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
+>> ~/LongRepMarker_v2.0-master/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
->> ~/LongRepMarker/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
+>> ~/LongRepMarker_v2.0-master/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
 >> <i><b>#A statistical report that records the size of the detected repetitive sequences.</b></i> </br>
->> ~/LongRepMarker/Results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
+>> ~/LongRepMarker_v2.0-master/Results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i></br> 
->> ~/LongRepMarker/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
+>> ~/LongRepMarker_v2.0-master/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
 >> <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i>  
->> ~/LongRepMarker/log/Time&Memory&Disk.info.info       &nbsp;&nbsp;&nbsp;  </br></br>
+>> ~/LongRepMarker_v2.0-master/log/Time&Memory&Disk.info       &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i>
->> ~/LongRepMarker/log/Exception.info &nbsp;&nbsp;&nbsp; </br></br>
+>> ~/LongRepMarker_v2.0-master/log/Exception.info &nbsp;&nbsp;&nbsp; </br></br>
 >> <i><b>#Combined detection results of TEs and tandem repeats.</b></i></br>
->> ~/LongRepMarker/Results/multiRepeatCopies_trf.fa         &nbsp;&nbsp;&nbsp;  </br></br>
+>> ~/LongRepMarker_v2.0-master/Results/multiRepeatCopies_trf.fa         &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#A report that records the structural variations present in the detected repetitive sequences.</b></i></br>
->> ~/LongRepMarker/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
->> <i><b>#The final consistent repetitive sequences obtained after the consensus operation.</b></i></br> 
->> ~/LongRepMarker/Results/finalRepeatConsensus.fa  &nbsp;&nbsp;&nbsp;  </br></br>
+>> ~/LongRepMarker_v2.0-master/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
+>> <i><b>#The final TEs obtained after the consensus operation.</b></i></br> 
+>> ~/LongRepMarker_v2.0-master/Results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
+>> <i><b>#The final consistent repetitive sequences obtained by merging TEs and tandem repeats.</b></i></br> 
+>> ~/LongRepMarker_v2.0-master/Results/finalRepeats.fa  &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#The final consistent repetitive sequences with classification information.</b></i></br>
->> ~/LongRepMarker/Results/finalRepeatConsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
+>> ~/LongRepMarker_v2.0-master/Results/finalRepeats.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
 >> <i><b>#All log files can be found in the following derictory.</b></i></br>
->> ~/LongRepMarker/log/   &nbsp;&nbsp;&nbsp;  </br></br>   
+>> ~/LongRepMarker_v2.0-master/log/   &nbsp;&nbsp;&nbsp;  </br></br>   
 
 Citations 
 ==================================
