@@ -232,11 +232,11 @@ Output
 >> ~/LongRepMarker_v2.0-master/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
 >> <i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i>  
 >> ~/LongRepMarker_v2.0-master/log/Time&Memory&Disk.info       &nbsp;&nbsp;&nbsp;  </br></br>
->> <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i>
+>> <i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i></br>
 >> ~/LongRepMarker_v2.0-master/log/Exception.info &nbsp;&nbsp;&nbsp; </br></br>
 >> <i><b>#Detected TEs and all their copies in the genome.</b></i></br>
 >> ~/LongRepMarker_v2.0-master/Results/multiRepeatCopies.fa         &nbsp;&nbsp;&nbsp;  </br></br>
->> <i><b>#A report that records the structural variations present in the detected repetitive sequences.</b></i></br>
+>> <i><b>#A report that records the structural variations present in the detected TEs.</b></i></br>
 >> ~/LongRepMarker_v2.0-master/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
 >> <i><b>#The final TEs obtained after the consensus operation.</b></i></br> 
 >> ~/LongRepMarker_v2.0-master/Results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
