@@ -224,12 +224,9 @@ Installation and running of LongRepMarker_v2.0
 >> >> 
 >> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -T no &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/	
 Output 
->> >> 
-==================================
->> >> 
+
 ### Results produced by LongRepMarker_v2.0 
->> >>  
->> >> 
+ 
 <li>The final detection results will be stored in the path specified by '-o'. If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/Results'. </li> </br>
 >> >> 
 <li>The following detailed reports will be generated in the final detection results.</li> </br>
