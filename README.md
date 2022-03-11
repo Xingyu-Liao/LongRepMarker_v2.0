@@ -227,9 +227,9 @@ Output
 
 ### Results produced by LongRepMarker_v2.0 
  
-<li>The final detection results will be stored in the path specified by '-o'. If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/Results'. </li> </br>
+>> <b><li>The final detection results will be stored in the path specified by '-o'. If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/Results'. </li> </b></br>
 >> >> 
-<li>The following detailed reports will be generated in the final detection results.</li> </br>
+>> <b><li>The following detailed reports will be generated in the final detection results.</li></b></br>
 >> >> 
 >> <i><b>#A statistical report that records the alignment of the detected repetitive sequences in the genome. </b></i> </br>
 >> ~/LongRepMarker_v2.0-master/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
