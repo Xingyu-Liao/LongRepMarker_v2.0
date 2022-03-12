@@ -227,7 +227,9 @@ Output
 >> >> 
 >> <b><li>Generation of the masking reports (*.tbl) by using RepeatMasker &nbsp; </li></b>
 >> >>
->> >> cd  /home/LongRepMarker_v2.0-master/results/RepeatMasker.sh  
+>> >> cd  /home/LongRepMarker_v2.0-master/results/
+>> >> 
+>> >> ./RepeatMasker.sh  
 >> >> 
 >> >> Please note that this shell script can only be executed after the LongRepMarker_v2.0 has finished running. Additionally, the parameters '-species' and '-f' must be configured during the running of LongRepMarker_v2.0.
 >> >> 
