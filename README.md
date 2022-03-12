@@ -82,7 +82,7 @@ Installation and running of LongRepMarker_v2.0
 [MemConfig] </br>
 	
 >> -Xmx300G   &nbsp;&nbsp;  <i><b># This item is used to set the maximum size of the java heap memory，which is only configured when processing 
->> some large datasets (E.g, the genome size >=10Gb or the size of sequencing data >= 50GB).</b></i></br>
+>> some large datasets (E.g, the genome size >=2Gb or the size of sequencing data >= 10GB).</b></i></br>
 	
 [options]
 
