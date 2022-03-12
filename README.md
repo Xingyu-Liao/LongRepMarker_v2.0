@@ -224,10 +224,18 @@ Installation and running of LongRepMarker_v2.0
 >> >> 
 >> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -T no &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/	
 Output 
+>> >> 
+>> <b><li>Generation of the masking reports (*.tbl) by using RepeatMasker &nbsp; </li></b>
+>> >>
+>> >> cd  /home/LongRepMarker_v2.0-master/results/RepeatMasker.sh  
+>> >> 
+>> >> Please note that this shell script can only be executed after the LongRepMarker_v2.0 has finished running. Additionally, the parameters '-species' and '-f' must be configured during the running of LongRepMarker_v2.0.
+>> >> 
 
 ### Results produced by LongRepMarker_v2.0 
  
->> <b><li>The final detection results will be stored in the path specified by '-o'. If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/Results'. </li> </b></br>
+>> <b><li>The final detection results will be stored in the path specified by '-o'. </li> </b></br>
+>> <b><li>If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/Results'. </li> </b></br>
 >> >> 
 >> <b><li>The following detailed reports will be generated in the final detection results.</li></b></br>
 >> >> 
