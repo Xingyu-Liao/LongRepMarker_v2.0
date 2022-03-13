@@ -10,7 +10,7 @@ Improvements
 Latest Version (v2.0)
 ==============
 
-The latest version of LongRepMarker was released on github (https://github.com/Xingyu-Liao/LongRepMarker_v2.0), google drive (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) and baidu cloud drive (https://pan.baidu.com/s/1L-LGvLLoJycwx60xYY-R6Q ， Extraction code：2022) respectively on January 28, 2022. 
+The latest version of LongRepMarker was released on github (https://github.com/Xingyu-Liao/LongRepMarker_v2.0), google drive (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) and baidu cloud drive (https://pan.baidu.com/s/1fkeX3i6c-yOzJNOtgaQBcw ， Extraction code：2022) respectively on January 28, 2022. 
 
 
 Author
@@ -44,7 +44,7 @@ Downloading LongRepMarker_v2.0
 <li>Download from google or baidu cloud drive</li>
 
 >> google drive （https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) or </br>
->> baidu cloud drive （https://pan.baidu.com/s/1L-LGvLLoJycwx60xYY-R6Q ， Extraction code：2022）. </br>
+>> baidu cloud drive （https://pan.baidu.com/s/1fkeX3i6c-yOzJNOtgaQBcw ， Extraction code：2022）. </br>
 
 Installation and running of LongRepMarker_v2.0 
 ==================================
