@@ -71,6 +71,22 @@ Installation and running of LongRepMarker_v2.0
 
 >> ./Makefile.sh  </br>
 
+### Install LongRepMarker_v2.0 with conda
+
+>> conda create -n TE  anaconda3  python=3.8  cmake=3.18.1  pip=20.0.2  perl=5.32.1  jdk  make  unzip  gcc </br>
+
+>> pip install pysam </br>
+
+>> source activate TE </br>
+
+>> cd ./LongRepMarker_v2.0-master  </br>
+
+>> ./Makefile.sh  </br>
+
+>> java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/  </br>
+
+>> conda deactivate </br>
+
 ### Run LongRepMarker_v2.0
 	
 <li>Running command :</li></br>
