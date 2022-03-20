@@ -85,8 +85,6 @@ Installation and running of LongRepMarker_v2.0
 
 >> pip install pysam
 
->> source activate TE
-
 >> conda install -c conda-forge gcc
 
 >> conda install -c conda-forge gxx
