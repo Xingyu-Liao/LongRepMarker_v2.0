@@ -10,7 +10,7 @@ bin_dir=./bin
 rm -rf ./alignment
 rm -rf ./readfile
 rm -rf ./results
-rm -rf ./programs 
+rm -rf ./programs
 rm -rf ./Nanopore 
 rm -rf ./log
 rm -rf ./__pycache__
@@ -25,6 +25,8 @@ mkdir  ./log
 #Check
 echo "-------------------------------------------------------------------------------"
 echo "01)Checking foundation."
+which unzip || { echo "unzip is not found"; exit 1; } 
+echo "unzip is ok."
 which gcc || { echo "java is not found"; exit 1; } 
 echo "gcc is ok."
 which java || { echo "java is not found"; exit 1; } 
@@ -122,8 +124,8 @@ chmod 777 -R ./results
 #Install-dsk
 echo "-------------------------------------------------------------------------------"
 echo "02)Installing the dependent scripts." 
-echo $(pwd)"/programs/scripts"
 echo "Dependent scripts are installed."
+echo "[Location]: "$(pwd)"/programs/scripts"
 #Install-bowtie2
 echo "-------------------------------------------------------------------------------"
 echo "03)Installing bowtie2." 
@@ -133,8 +135,15 @@ cd ..
 cd ..
 mv  ./programs/bowtie2-2.4.4/Bowtie2_Install.log  ./log/
 mv  ./programs/bowtie2-2.4.4/Bowtie2_Warning.log  ./log/
-echo $(pwd)"/programs/bowtie2-2.4.4"
-echo "bowtie2 is installed."
+bowtieFile1=$(pwd)"/programs/bowtie2-2.4.4/bowtie2-build"
+bowtieFile2=$(pwd)"/programs/bowtie2-2.4.4/bowtie2"
+if [[ -f "$bowtieFile1"  &&  -f "$bowtieFile2" ]]; then
+	echo "bowtie2 is installed."
+	echo "[Location]: "$(pwd)"/programs/bowtie2-2.4.4"
+else
+	echo "Bowtie2 installation failed, please check the installation log [" $(pwd)"/log/Bowtie2_Install.log ]."
+	exit 1;
+fi
 #Install-minimap2
 echo "-------------------------------------------------------------------------------"
 echo "04)Installing minimap2." 
@@ -144,8 +153,14 @@ cd ..
 cd ..
 mv  ./programs/minimap2-2.24/minimap2_Install.log  ./log/
 mv  ./programs/minimap2-2.24/minimap2_Warning.log  ./log/
-echo $(pwd)"/programs/minimap2-2.24/"
-echo "minimap2 is installed."
+minimap2File=$(pwd)"/programs/minimap2-2.24/minimap2"
+if [[ -f "$minimap2File" ]]; then
+	echo "minimap2 is installed."
+	echo "[Location]: "$(pwd)"/programs/minimap2-2.24"
+else
+	echo "minimap2 installation failed, please check the installation log [" $(pwd)"/log/minimap2_Install.log ]."
+	exit 1;
+fi
 #Install-gfatools
 echo "-------------------------------------------------------------------------------"
 echo "05)Installing gfatools." 
@@ -160,19 +175,31 @@ mv  ./programs/gfatools-master/gfatools_Install.log  ./log/
 mv  ./programs/gfatools-master/gfatools_Warning.log  ./log/
 mv  ./programs/gfatools-master/paf2gfa/paf2gfa_Install.log  ./log/
 mv  ./programs/gfatools-master/paf2gfa/paf2gfa_Warning.log  ./log/
-echo $(pwd)"/programs/gfatools-master/"
-echo "gfatools is installed."
+gfatoolsFile=$(pwd)"/programs/gfatools-master/gfatools"
+if [[ -f "$gfatoolsFile" ]]; then
+	echo "gfatools is installed."
+	echo "[Location]: "$(pwd)"/programs/gfatools-master"
+else
+	echo "gfatools installation failed, please check the installation log [" $(pwd)"/log/paf2gfa_Install.log ]."
+	exit 1;
+fi
 #Install-cdhit
 echo "-------------------------------------------------------------------------------"
 echo "06)Installing cdhit." 
 cd ./programs/cdhit-master/
-make  1> ./cdhit_Install.log   2>  ./cdhit_Warning.log
+make  MAX_SEQ=100000000  1> ./cdhit_Install.log   2>  ./cdhit_Warning.log
 cd ..
 cd ..
 mv  ./programs/cdhit-master/cdhit_Install.log  ./log/
 mv  ./programs/cdhit-master/cdhit_Warning.log  ./log/
-echo $(pwd)"/programs/cdhit-master/"
-echo "cdhit is installed."
+cdhitFile=$(pwd)"/programs/cdhit-master/cd-hit-est"
+if [[ -f "$gfatoolsFile" ]]; then
+	echo "cd-hit is installed."
+	echo "[Location]: "$(pwd)"/programs/cdhit-master"
+else
+	echo "cd-hit installation failed, please check the installation log [" $(pwd)"/log/cdhit_Install.log ]."
+	exit 1;
+fi
 #Install-samtools
 echo "-------------------------------------------------------------------------------"
 echo "07)Installing samtools." 
@@ -186,8 +213,14 @@ mv  ./programs/samtools-1.14/Samtools_Install.log  ./log/
 mv  ./programs/samtools-1.14/Samtools_Install_Warning.log  ./log/
 mv  ./programs/samtools-1.14/Samtools_Configure.log  ./log/
 mv  ./programs/samtools-1.14/Samtools_Configure_Warning.log  ./log/
-echo $(pwd)"/programs/samtools-1.14"
-echo "samtools is installed."
+samtoolsFile=$(pwd)"/programs/samtools-1.14/samtools"
+if [[ -f "$samtoolsFile" ]]; then
+	echo "samtools is installed."
+	echo "[Location]: "$(pwd)"/programs/samtools-1.14"
+else
+	echo "samtools installation failed, please check the installation log [" $(pwd)"/log/Samtools_Install.log ]."
+	exit 1;
+fi
 echo "-------------------------------------------------------------------------------" 
 echo "08)Installing bcfools." 
 cd ./programs/bcftools-1.14/ 
@@ -200,8 +233,14 @@ mv  ./programs/bcftools-1.14/Bcftools_Install.log  ./log/
 mv  ./programs/bcftools-1.14/Bcftools_Install_Warning.log  ./log/
 mv  ./programs/bcftools-1.14/Bcftools_Configure.log  ./log/
 mv  ./programs/bcftools-1.14/Bcftools_Configure_Warning.log  ./log/
-echo $(pwd)"/programs/bcftools-1.14"
-echo "bcftools is installed."
+bcftoolsFile=$(pwd)"/programs/bcftools-1.14/bcftools"
+if [[ -f "$bcftoolsFile" ]]; then
+	echo "bcftools is installed."
+	echo "[Location]: "$(pwd)"/programs/bcftools-1.14"
+else
+	echo "bcftools installation failed, please check the installation log [" $(pwd)"/log/Bcftools_Install.log ]."
+	exit 1;
+fi
 echo "-------------------------------------------------------------------------------" 
 echo "09)Installing rmblast." 
 echo $(pwd)"/programs/rmblast-2.11.0"
@@ -218,16 +257,22 @@ mv  ./programs/TRF-master/TRF_Install.log  ./log/
 mv  ./programs/TRF-master/TRF_Install_Warning.log  ./log/
 mv  ./programs/TRF-master/TRF_Configure.log  ./log/
 mv  ./programs/TRF-master/TRF_Configure_Warning.log  ./log/
-echo $(pwd)"/programs/TRF-master/build"
-echo "TRF is installed."
+TRFFile=$(pwd)"/programs/TRF-master/build/src/trf"
+if [[ -f "$TRFFile" ]]; then
+	echo "TRF is installed."
+	echo "[Location]: "$(pwd)"/programs/TRF-master"
+else
+	echo "TRF installation failed, please check the installation log [" $(pwd)"/log/TRF_Install.log ]."
+	exit 1;
+fi
 echo "-------------------------------------------------------------------------------" 
 echo "11)Installing RepeatMasker." 
-echo $(pwd)"/programs/RepeatMasker"
 echo "RepeatMasker is installed."
+echo "[Location]: "$(pwd)"/programs/RepeatMasker"
 echo "-------------------------------------------------------------------------------" 
 echo "12)Installing Classifier." 
-echo $(pwd)"/programs/Classifier"
 echo "Classifier is installed."
+echo "[Location]: "$(pwd)"/programs/Classifier"
 echo "-------------------------------------------------------------------------------" 
 echo "13)Installing SPAdes." 
 cd ./programs/SPAdes-3.15.3/
@@ -236,8 +281,16 @@ cd ..
 cd ..
 mv  ./programs/SPAdes-3.15.3/SPAdes_Install.log  ./log/
 mv  ./programs/SPAdes-3.15.3/SPAdes_Install_Warning.log  ./log/
-echo $(pwd)"/programs/SPAdes-3.15.3/bin/"
-echo "SPAdes is installed."
+SPAdesFile1=$(pwd)"/programs/SPAdes-3.15.3/bin/spades.py"
+SPAdesFile2=$(pwd)"/programs/SPAdes-3.15.3/bin/spades-core"
+SPAdesFile3=$(pwd)"/programs/SPAdes-3.15.3/bin/spades-gmapper"
+if [[ -f "$SPAdesFile1" &&  -f "$SPAdesFile2" && -f "$SPAdesFile3" ]]; then
+	echo "SPAdes is installed."
+	echo "[Location]: "$(pwd)"/programs/SPAdes-3.15.3"
+else
+	echo "SPAdes installation failed, please check the installation log [" $(pwd)"/log/SPAdes_Install.log ]."
+	exit 1;
+fi
 #mkdir_log 
 if [ ! -d $log_dir ]
 then
@@ -274,6 +327,7 @@ javac  threadTimMem.java
 javac  threadTRF.java
 javac  threadLTRlong.java
 javac  threadLTR.java
+javac  threadRepeatCut.java
 javac  LongRepMarker.java
 chmod 777 -R ./*.*
 cd ..
@@ -282,6 +336,7 @@ cp  ./tools/src/*.py   ./
 mv  ./tools/src/*.class  ./
 echo $(pwd)"/programs/"
 echo "All java programs are compiled." 
+echo "[Location]: "$(pwd)"/"
 echo "-------------------------------------------------------------------------------"
 echo "    "
 #Edit permission
