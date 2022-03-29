@@ -1,0 +1,28 @@
+Repeats alignment analysis report
+===========================================================================================================================================
+Instruction: In the calculation, two aligners minimap2 and bwa are used.
+Among them, minimap2 is mainly used for the alignment of long fragments, and bwa is used for the alignment of the remaining short fragments.
+===========================================================================================================================================
+1) Alignment analysis of all TE sequenes: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/alignment/multiRepeatCopies.fa ] 
+sam file generated from minimap2: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/multiRepeatCopies2.sam ] 
+sam file generated from bwa: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/multiRepeatCopies.sam ]
+Total count: 149956
+Align 0 times: 0 (0.00%)
+Align 1 times: 490 (0.33%)
+Align > 1 times: 149466 (99.67%)
+===========================================================================================================================================
+2) Alignment analysis of TE consensus sequences: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/alignment/TEconsensus.fa ] 
+sam file generated from minimap2: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/TEconsensus2.sam ] 
+sam file generated from bwa: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/TEconsensus.sam ]
+Total count: 6004
+Align 0 times: 0 (0.00%)
+Align 1 times: 113 (1.88%)
+Align > 1 times: 5891 (98.12%)
+===========================================================================================================================================
+3) Alignment analysis of TE consensus sequences + Tandem repeats : [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/finalRepeats.fa ] 
+sam file generated from minimap2: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/finalRepeats2.sam ] 
+sam file generated from bwa: [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/finalRepeats.sam ]
+Total count: 6004
+Align 0 times: 0 (0.00%)
+Align 1 times: 113 (1.88%)
+Align > 1 times: 5891 (98.12%)

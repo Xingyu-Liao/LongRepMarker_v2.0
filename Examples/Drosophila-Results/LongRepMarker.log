@@ -1,0 +1,42 @@
+nohup: ignoring input
+-------------------------------------------------------------------------------------------
+Copyright (C) 2021 Xingyu Liao ( xingyu.liao@kaust.edu.sa / Xingyu_Liao@126.com)
+Computer, Electrical and Mathematical Sciences and Engineering Division
+King Abdullah University of Science and Technology
+Thuwal 23955, Saudi Arabia.
+
+Step01: Parameters configuration
+====================================System settings========================================
+  [Setting] Operation Schema = [ reference mode ]
+  [default] Catched Exception = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/log/Exception.info ]
+  [default] Running time, memory and disk space consumption statistics report = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/log/Time&Memory&Disk.info ]
+  [default] Alignment analysis report of detected fragments = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/Alignment_report.info ]
+  [default] Size analysis report of detected fragments = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/Size_report.info ]
+  [default] Structural variant analysis report of detected fragments = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/multiRepeatCopies_sv.vcf ]
+  [default] Final detected repetitive sequences with classification information = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/finalRepeats.fa.classified ]
+  [Setting] The Minimum Size of Overlap  = [ 100bp ]
+  [Setting] The K-mer Size  = [ 49bp ]
+  [Setting] Threads  = [ 16 ]
+  [Setting] Local Alignment Mode  = [ fast ]
+  [Setting] Perform Tandem Repeat Detection  = [ no ]
+  [Setting] Common species name used for evalution  = [ human ]
+  [default] The reference sequences used for evalution  = [ Not available ]
+  [Setting] Tools for multiple sequence alignment analysis : [ Multiple-Sequence aligners (Minimap2 + bowtie2)]
+  [Setting] Metrics used for repeat size analysis : [ N50, N75, N90 ]
+  [Setting] Output path = [ /home/xingyu_liao/tools/LongRepMarker_v2.0-master/results/ ]
+  [Setting] Data Type  = [ Reference sequences / assemblies ]
+  [Setting] Referece sequences / assemblies path = [ /data/Ref/Drosophila-all-chromosome-r5.43.fasta ]
+  [default] Reference sequences / assemblies total length  = [ 1.68736537E8bp ]
+  [default] Number of fragment in Reference sequences / assemblies = [ 15 ]
+=======================================Detection===========================================
+Step02: Parallel preprocessing [ Time Cost: 1635(ms) ] 
+Step03: Loading reference sequences / assemblies [ Time Cost: 2500(ms) ] 
+Step04: Finding overlap sequences between reference sequences / assemblies [ Time Cost: 532981(ms) ] 
+Step05: Converting overlap sequences to the unique k-mers [ Abundance-min: 2, Time Cost: 39192(ms) ] 
+Step06: Mapping the multi-alignment unique k-mers to the overlap sequences [ Num of block: 16, Num of thread: 16, Time Cost: 322515(ms) ] 
+Step07: Finding the high coverage regions bewteen overlap sequense[ Num of fragment: 72539, Time Cost: 84793(ms) ] 
+Step08: Removing impurities and chimeras from the high coverage regions [ blocksize=4534, Time Cost:120490(ms) ] 
+Step09: Generating the consensus repetitive sequences based on the high-precision multi-copy fragments[ Time Cost: 753636(ms) ] 
+Step10: Classifying the generated consensus repetitive sequences [ Time Cost: 7938468(ms) ] 
+======================================Evaluation===========================================
+Step11: Alignment, size and variation anlysis of the detected repetitive sequences [ Time Cost: 334404(ms) ] 
