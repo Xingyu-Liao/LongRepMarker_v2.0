@@ -251,6 +251,7 @@ Installation and running of LongRepMarker_v2.0
 >> >> java &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r <reference.fa | assemblies.fa> &nbsp; -R [fast] &nbsp; -T [no] &nbsp; -k [49] &nbsp; -m [100] &nbsp; -t [36] &nbsp; -o [/home/finalResults/] &nbsp; [options] 
 >> >> 
 >> >> E.g., &nbsp; java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -R fast &nbsp; -T no &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/	
+>> >>
 Output 
 >> >> 
 >> <b><li>Generation of the masking reports (*.tbl) by using RepeatMasker &nbsp; </li></b>
