@@ -180,6 +180,16 @@ Installation and running of LongRepMarker_v2.0
 >> 
 >> -N  &nbsp;&nbsp;  <i><b>#The Nanopore long reads.</b></i></br>
 >> 
+>> -aS  &nbsp;&nbsp;  <i><b>#Minimal alignment coverage (fraction) for the shorter sequence (Default: 0.8).</b></i></br>
+>> 
+>> -c  &nbsp;&nbsp;  <i><b>#Sequence identity threshold (Default: 0.8).");
+>> 
+>> -g  &nbsp;&nbsp;  <i><b>#Sequence is clustered to the best cluster that meet the threshold (Default: 1).</b></i></br>
+>> 
+>> -G  &nbsp;&nbsp;  <i><b>#Use global sequence identity (Default: 0).");
+>> 
+>> -A  &nbsp;&nbsp;  <i><b>#Maximum unaligned part (amino acids/bases) for the longer sequence (Default: 80).</b></i></br>
+>> 
 >> -f  &nbsp;&nbsp;  <i><b>#The reference genome used for detection results evaluation.</b></i></br>
 >> 
 >> -species &nbsp;&nbsp;&nbsp;  <i><b>#The scientific name of the species being detected (only used in detection results evaluation).</b></i></br>
