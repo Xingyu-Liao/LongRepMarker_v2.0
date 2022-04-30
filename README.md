@@ -274,14 +274,14 @@ Installation and running of LongRepMarker_v2.0
 ### Results produced by LongRepMarker_v2.0 
  
 >> <b><li>The final detection results will be stored in the path specified by '-o'. </li> </b></br>
->> <b><li>If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/Results'. </li> </b></br>
+>> <b><li>If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/results'. </li> </b></br>
 >> <b><li>The following detailed reports will be generated in the final detection results.</li></b></br>
->> >><i><b>#A statistical report that records the alignment of the detected repetitive sequences in the genome. </b></i> </br>
->> >>~/LongRepMarker_v2.0-master/Results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
->> >><i><b>#A statistical report that records the distribution of the detected repetitive sequences in the genome.</b></i> </br>
->> >>~/LongRepMarker_v2.0-master/Results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
->> >><i><b>#A statistical report that records the size of the detected repetitive sequences.</b></i> </br>
->> >>~/LongRepMarker_v2.0-master/Results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
+>> >><i><b>#A statistical report that records the alignment of the detected TE elements in the genome. </b></i> </br>
+>> >>~/LongRepMarker_v2.0-master/results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
+>> >><i><b>#A statistical report that records the distribution of the detected TE elements in the genome.</b></i> </br>
+>> >>~/LongRepMarker_v2.0-master/results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
+>> >><i><b>#A statistical report that records the length distribution of the detected TE elements.</b></i> </br>
+>> >>~/LongRepMarker_v2.0-master/results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i></br> 
 >> >>~/LongRepMarker_v2.0-master/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
 >> >><i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i>  
@@ -289,15 +289,17 @@ Installation and running of LongRepMarker_v2.0
 >> >><i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i></br>
 >> >>~/LongRepMarker_v2.0-master/log/Exception.info &nbsp;&nbsp;&nbsp; </br></br>
 >> >><i><b>#Detected TEs and all their copies in the genome.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/Results/multiRepeatCopies.fa         &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.0-master/results/multiRepeatCopies.fa         &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#A report that records the structural variations present in the detected TEs.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/Results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
->> >><i><b>#The final TEs obtained after the consensus operation.</b></i></br> 
->> >>~/LongRepMarker_v2.0-master/Results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
->> >><i><b>#The final consistent repetitive sequences obtained by merging TEs and tandem repeats.</b></i></br> 
->> >>~/LongRepMarker_v2.0-master/Results/finalRepeats.fa  &nbsp;&nbsp;&nbsp;  </br></br>
->> >><i><b>#The final consistent repetitive sequences with classification information.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/Results/finalRepeats.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.0-master/results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
+>> >><i><b>#TE consensus sequences.</b></i></br> 
+>> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
+>> >><i><b>#Tandem repeats with location information.</b></i></br> 
+>> >>~/LongRepMarker_v2.0-master/results/TandemRepeats.fa  &nbsp;&nbsp;&nbsp;  </br></br>
+>> >><i><b>#Tandem repeats masking results.</b></i></br>
+>> >>~/LongRepMarker_v2.0-master/results/genomeSeq_TandemRepeats.mask  &nbsp;&nbsp;&nbsp;  </br></br>
+>> >><i><b>#TE consensus sequences with classification information.</b></i></br>
+>> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#All log files can be found in the following derictory.</b></i></br>
 >> >>~/LongRepMarker_v2.0-master/log/   &nbsp;&nbsp;&nbsp;  </br></br>   
 
