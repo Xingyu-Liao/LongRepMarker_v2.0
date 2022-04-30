@@ -182,11 +182,11 @@ Installation and running of LongRepMarker_v2.0
 >> 
 >> -aS  &nbsp;&nbsp;  <i><b>#Minimal alignment coverage (fraction) for the shorter sequence (Default: 0.8).</b></i></br>
 >> 
->> -c  &nbsp;&nbsp;  <i><b>#Sequence identity threshold (Default: 0.8).");
+>> -c  &nbsp;&nbsp;  <i><b>#Sequence identity threshold (Default: 0.8).</b></i></br>
 >> 
 >> -g  &nbsp;&nbsp;  <i><b>#Sequence is clustered to the best cluster that meet the threshold (Default: 1).</b></i></br>
 >> 
->> -G  &nbsp;&nbsp;  <i><b>#Use global sequence identity (Default: 0).");
+>> -G  &nbsp;&nbsp;  <i><b>#Use global sequence identity (Default: 0).</b></i></br>
 >> 
 >> -A  &nbsp;&nbsp;  <i><b>#Maximum unaligned part (amino acids/bases) for the longer sequence (Default: 80).</b></i></br>
 >> 
