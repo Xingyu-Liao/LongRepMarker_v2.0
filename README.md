@@ -294,12 +294,12 @@ Installation and running of LongRepMarker_v2.0
 >> >>~/LongRepMarker_v2.0-master/results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
 >> >><i><b>#TE consensus sequences.</b></i></br> 
 >> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
+>> >><i><b>#TE consensus sequences with classification information.</b></i></br>
+>> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#Tandem repeats with location information.</b></i></br> 
 >> >>~/LongRepMarker_v2.0-master/results/TandemRepeats.fa  &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#Tandem repeats masking results.</b></i></br>
 >> >>~/LongRepMarker_v2.0-master/results/genomeSeq_TandemRepeats.mask  &nbsp;&nbsp;&nbsp;  </br></br>
->> >><i><b>#TE consensus sequences with classification information.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#All log files can be found in the following derictory.</b></i></br>
 >> >>~/LongRepMarker_v2.0-master/log/   &nbsp;&nbsp;&nbsp;  </br></br>   
 
