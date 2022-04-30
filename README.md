@@ -44,7 +44,7 @@ Downloading LongRepMarker_v2.0
 <li>Download from google or baidu cloud drive</li>
 
 >> google drive （https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) or </br>
->> baidu cloud drive （https://pan.baidu.com/s/1ZDUm4cY2077i2gYZLYVP2Q ， Extraction code：2022）. </br>
+>> baidu cloud drive （https://pan.baidu.com/s/1tlyWbj_NR3jzBI3rPC6lpA ， Extraction code：2022）. </br>
 
 Installation and running of LongRepMarker_v2.0 
 ==================================
