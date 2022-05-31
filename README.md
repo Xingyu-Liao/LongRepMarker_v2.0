@@ -24,22 +24,6 @@ Thuwal, 23955, Saudi Arabia.  </br>
 
 Downloading LongRepMarker_v2.0 
 ==================================
-<li>Install git lfs </br>
-
->> curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash </br>
->> sudo apt-get install git-lfs </br>
->> git lfs install</br>
- 
-<li>Clone project</br>
-
->> git clone https://github.com/Xingyu-Liao/LongRepMarker_v2.0.git </br>
-
-<li>GitHub Pages sites are subject to the following usage limits:</li>
-
->> GitHub Pages source repositories have a recommended limit of 1GB . Published GitHub Pages sites may be no larger than 1 GB.</br>
->> GitHub Pages sites have a bandwidth limit of 100GB or 100,000 requests per month. </br>
->> GitHub Pages sites have a limit of 10 builds per hour. </br>
->> If the compressed file "tools.zip" fails to download due to traffic restrictions, please refer to the following instructions to download from google or baidu cloud drive.</br>
 
 <li>Download from google or baidu cloud drive</li>
 
