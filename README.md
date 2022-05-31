@@ -78,7 +78,7 @@ Installation and running of LongRepMarker_v2.0
     <li>（TE）xingyu_liao@kw60204: cd   /data/zip/LongRepMarker_v2.0    #TE is the name of conda virtual environment. </br>
 
 >> Install LongRepMarker_v2.0.
-    （TE）xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh
+    <li>（TE）xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh </br>
 
  
 ### Install LongRepMarker_v2.0
