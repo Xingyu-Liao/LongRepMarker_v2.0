@@ -49,17 +49,6 @@ Downloading LongRepMarker_v2.0
 Installation and running of LongRepMarker_v2.0 
 ==================================
 
-### Dependencies
-
-<li>64-bit Linux system or Mac OS </br>
-<li>Python (supported versions are Python 2.7, and Python3: 3.2 and higher) </br>
-<li>CMake (3.10 or higher is required) </br>
-<li>g++ (version 5.3.1 or higher is required)  </br>
-<li>JDK (jdk 1.8.0 or above) </br>
-<li>Perl (perl 5.6.0 or above) </br> 
-<li>zlib </br>
-<li>libbz2 </br>
-
 ### Install LongRepMarker_v2.0 with conda
 
 >> 1> Download the source file of LongRepMarker tool on google drive  (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view).</br>
@@ -79,17 +68,6 @@ Installation and running of LongRepMarker_v2.0
 ----------------------------------------------------------------------</br>
 >> 6> Install LongRepMarker_v2.0.</br>
     <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh </br>
-
- 
-### Install LongRepMarker_v2.0
-
->> cd /home &nbsp;&nbsp;&nbsp; <i><b># E.g., The compressed file is downloaded in the directory '/home/'.</b></i></br>
-
->> unzip ./LongRepMarker_v2.0-master.zip </br>
-
->> cd ./LongRepMarker_v2.0-master </br>
-
->> ./Makefile.sh  </br>
 
 
 ### Run LongRepMarker_v2.0
