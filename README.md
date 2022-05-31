@@ -25,7 +25,7 @@ Thuwal, 23955, Saudi Arabia.  </br>
 Downloading LongRepMarker_v2.0 
 ==================================
 
-<li>Download from google or baidu cloud drive</li>
+<li>Download LongRepMarker_v2.0 from google or baidu cloud drive</li>
 
 >> google drive （https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) or </br>
 >> baidu cloud drive （https://pan.baidu.com/s/1rqsENOfy3UfE5epwoddGDg ， Extraction code：2022）. </br>
