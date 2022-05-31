@@ -63,20 +63,20 @@ Installation and running of LongRepMarker_v2.0
 ### Install LongRepMarker_v2.0 with conda
 
 >> 1> Download the source file of LongRepMarker tool on google drive  (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view).</br>
-
+=========================================
 >> 2> Decompress the "LongRepMarker_v2.0.zip" file.</br>
      <li>cd /data/zip                       &nbsp;&nbsp;&nbsp;     # for example, the compressed file is stored in the directory of "/data/zip".</br> 
      <li>unzip ./LongRepMarker_v2.0.zip     &nbsp;&nbsp;&nbsp;     # decompresses the file named "LongRepMarker_v2.0.zip".</br>
-
+=========================================
 >> 3> Create a conda virtual environment.</br>
      <li>conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 zlib  pysam cmake </br>
-
+=========================================
 >> 4> Activate the conda environment.</br>
      <li>conda activate TE </br>
-
+=========================================
 >> 5> Enter the working directory of LongRepMarker from the conda environment.</br>
     <li>(TE)xingyu_liao@kw60204: cd /data/zip/LongRepMarker_v2.0          &nbsp;&nbsp;&nbsp;     #TE is the name of conda virtual environment. </br>
-
+=========================================
 >> 6> Install LongRepMarker_v2.0.</br>
     <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh </br>
 
