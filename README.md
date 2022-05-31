@@ -35,7 +35,7 @@ Installation and running of LongRepMarker_v2.0
 
 ### Install LongRepMarker_v2.0 with conda
 
->> 1> Download the source file of LongRepMarker tool on google drive  (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view).</br>
+>> 1> Download the source file of LongRepMarker_v2.0 from google or baidu cloud drive  (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view) (https://pan.baidu.com/s/1rqsENOfy3UfE5epwoddGDg ， Extraction code：2022).</br>
 ----------------------------------------------------------------------</br>
 >> 2> Decompress the "LongRepMarker_v2.0.zip" file.</br>
      <li>cd /data/zip                       &nbsp;&nbsp;&nbsp;     # for example, the compressed file is stored in the directory of "/data/zip".</br> 
