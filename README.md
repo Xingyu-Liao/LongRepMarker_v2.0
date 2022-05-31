@@ -72,11 +72,9 @@ Installation and running of LongRepMarker_v2.0
      <li>conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 zlib  pysam cmake </br>
 
 >> Activate the conda environment.
-
      <li>conda activate TE </br>
 
 >> Enter the working directory of LongRepMarker from the conda environment.
-
     <li>（TE）xingyu_liao@kw60204: cd   /data/zip/LongRepMarker_v2.0    #TE is the name of conda virtual environment. </br>
 
 >> Install LongRepMarker_v2.0.
