@@ -60,6 +60,32 @@ Installation and running of LongRepMarker_v2.0
 <li>zlib </br>
 <li>libbz2 </br>
 
+### Install LongRepMarker_v2.0 with conda
+
+>> Download the source file of LongRepMarker tool on google drive  (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view).
+
+>> Decompress the "LongRepMarker_v2.0.zip" file.
+>> 
+     cd /data/zip     # for example, the compressed file is stored in the directory of "/data/zip". 
+     unzip ./LongRepMarker_v2.0.zip   # decompresses the file named "LongRepMarker_v2.0.zip".
+
+>> Create a conda environment.
+>> 
+     conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 zlib  pysam cmake
+
+>> Activate the conda environment.
+
+     conda activate TE
+
+>> Enter the working directory of LongRepMarker from the conda environment.
+>> 
+
+    （TE）xingyu_liao@kw60204: cd   /data/zip/LongRepMarker_v2.0    #TE is the name of conda virtual environment.
+
+>> Install LongRepMarker_v2.0.
+>> 
+    （TE）xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh
+
  
 ### Install LongRepMarker_v2.0
 
@@ -71,33 +97,6 @@ Installation and running of LongRepMarker_v2.0
 
 >> ./Makefile.sh  </br>
 
-### Install LongRepMarker_v2.0 with conda
-
->> module avail
-
->> module load java/1.8.0_191
-
->> module load cmake/3.18.1
-
->> module load anaconda3/2021.05
-
->> conda create -n TE python=3.8 pip=20.0.2  perl=5.32.1  make=4.2  unzip   gcc=10.3.0   zlib  
-
->> pip install pysam
-
->> conda install -c conda-forge gcc
-
->> conda install -c conda-forge gxx
-
->> source activate TE </br>
-
->> cd ./LongRepMarker_v2.0-master  </br>
-
->> ./Makefile.sh  </br>
-
->> java  &nbsp;&nbsp; LongRepMarker &nbsp;&nbsp; -r  /home/.../reference.fa  &nbsp; -k 49 &nbsp; -m 100 &nbsp; -t 36 &nbsp; -o /home/.../Results/  </br>
-
->> conda deactivate </br>
 
 ### Run LongRepMarker_v2.0
 	
