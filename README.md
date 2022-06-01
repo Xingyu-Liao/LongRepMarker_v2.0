@@ -30,10 +30,8 @@ Downloading LongRepMarker_v2.0
 >> google drive （https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) or </br>
 >> baidu cloud drive （https://pan.baidu.com/s/1rqsENOfy3UfE5epwoddGDg ， Extraction code：2022）. </br>
 
-Installation and running of LongRepMarker_v2.0 
+Installation of LongRepMarker_v2.0 with conda
 ==================================
-
-### Install LongRepMarker_v2.0 with conda
 
 >> 1> Download the source file of LongRepMarker_v2.0 from google or baidu cloud drive  (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view) (https://pan.baidu.com/s/1rqsENOfy3UfE5epwoddGDg ， Extraction code：2022).</br>
 ----------------------------------------------------------------------</br>
@@ -54,7 +52,8 @@ Installation and running of LongRepMarker_v2.0
     <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh </br>
 
 
-### Run LongRepMarker_v2.0
+Running of LongRepMarker_v2.0
+==================================
 	
 <li>Running command :</li></br>
 
