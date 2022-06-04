@@ -5,6 +5,10 @@ The new version of the detection mode only based on the third-generation sequenc
 Improvements
 ==============
 
+A | B | C | D
+- | - | - | -
+1.0 | 2.0 | 3.0 | 4.0
+1.1 | 2.1 | 3.1 | 4.1
 
 
 Latest Version (v2.0)
