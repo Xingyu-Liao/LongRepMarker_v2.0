@@ -10,7 +10,7 @@ Improvements
 Latest Version (v2.0)
 ==============
 
-The latest version of LongRepMarker was released on github (https://github.com/Xingyu-Liao/LongRepMarker_v2.0), google drive (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/zAVtLByF ，Extraction code：202264) respectively on January 28, 2022. 
+The latest version of LongRepMarker was released on github (https://github.com/Xingyu-Liao/LongRepMarker_v2.0), google drive (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/zAVtLByF ，Extraction code：202264) respectively on ‎June 4, 2022. 
 
 
 Author
