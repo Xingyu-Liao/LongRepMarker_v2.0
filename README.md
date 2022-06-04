@@ -4,11 +4,7 @@ The new version of the detection mode only based on the third-generation sequenc
 
 Improvements
 ==============
-
-A | B | | C | D
-| - | - | - | - | -
-1.0 | 2.0 | | 3.0 | 4.0
-1.1 | 2.1 | | 3.1 | 4.1
+<li>Comparison of the proportion and detailed classification of detected repeats generated based on LongRepMarker_v2.0 and RepeatScout of Drosophila genome</li>
 
 ![image](https://user-images.githubusercontent.com/60574102/172019842-354030cb-e551-4d83-b5a8-12c22a44c8a6.png)
 
