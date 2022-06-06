@@ -269,5 +269,6 @@ FAQ
 > 1> /usr/include/stdlib.h:25:10: fatal error: bits/libc-header-start.h: No such file or directory （This problem may occur during the installation of the gfatools tool）<br>
 >> Solution : Install gcc-multilib: </br>
 >> Command: sudo apt-get install gcc-multilib g++-multilib </br>
+
 > 2> If the memory space of the device is less than 100G, it is recommended to set the value of parameter 't' to less than 8.<br>
 >> Solution : -t 8 </br>
