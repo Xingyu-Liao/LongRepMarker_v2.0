@@ -47,7 +47,7 @@ Installation of LongRepMarker_v2.0 with conda
      <li>conda activate TE </br>
 ----------------------------------------------------------------------</br>
 >> 5> Directory authorization
-     <li>(TE)xingyu_liao@kw60204: chmod 777 -R /data/zip/LongRepMarker_v2.0
+     <li>(TE)xingyu_liao@kw60204: chmod 777 -R /data/zip/LongRepMarker_v2.0</br>
 ----------------------------------------------------------------------</br>
 >> 6> Enter the working directory of LongRepMarker from the conda environment.</br>
     <li>(TE)xingyu_liao@kw60204: cd /data/zip/LongRepMarker_v2.0   &nbsp;&nbsp;&nbsp;     #TE is the name of conda virtual environment. </br>
