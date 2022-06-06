@@ -31,11 +31,6 @@ Downloading LongRepMarker_v2.0
 >> google drive （https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or </br>
 >> tencent cloud drive （https://share.weiyun.com/2kD3Urs8, Extraction code：202266）. </br>
 
-Installation dependencies
-==================================
->> Install gcc-multilib: </br>
->> sudo apt-get install gcc-multilib g++-multilib </br>
-
 Installation of LongRepMarker_v2.0 with conda
 ==================================
 
@@ -271,3 +266,9 @@ Citations
 <b>Xingyu Liao</b>, Min Li, Kang Hu, Fang-Xiang Wu, Xin Gao, Jianxin Wang, A sensitive repeat identification framework based on short and long reads, <b><i>Nucleic Acids Research</i></b>, Volume 49, Issue 17, 27 September 2021, Page e100, https://doi.org/10.1093/nar/gkab563 </br>
 
 <b>Xingyu Liao</b>, Kang Hu, Adil Salhi, You Zou, Jianxin Wang, Xin Gao, msRepDB: a comprehensive repetitive sequence database of over 80 000 species, <b><i>Nucleic Acids Research</b></i>, Volume 50, Issue D1, 7 January 2022, Pages D236–D245, https://doi.org/10.1093/nar/gkab1089
+
+FAQ
+==================================
+> 1> /usr/include/stdlib.h:25:10: fatal error: bits/libc-header-start.h: No such file or directory （This problem may occur during the installation of the gfatools tool）<br>
+>> Solution : Install gcc-multilib: </br>
+>> Command: sudo apt-get install gcc-multilib g++-multilib </br>
