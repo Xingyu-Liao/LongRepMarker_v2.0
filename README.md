@@ -264,7 +264,7 @@ Citations
 
 <b>Xingyu Liao</b>, Kang Hu, Adil Salhi, You Zou, Jianxin Wang, Xin Gao, msRepDB: a comprehensive repetitive sequence database of over 80 000 species, <b><i>Nucleic Acids Research</b></i>, Volume 50, Issue D1, 7 January 2022, Pages D236–D245, https://doi.org/10.1093/nar/gkab1089
 
-FAQ
+FAQs
 ==================================
 > 1> /usr/include/stdlib.h:25:10: fatal error: bits/libc-header-start.h: No such file or directory （This problem may occur during the installation of the gfatools tool）<br>
 >> Solution : Install gcc-multilib: </br>
