@@ -31,12 +31,12 @@ Downloading LongRepMarker_v2.0
 >> google drive （https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view?usp=sharing) or </br>
 >> tencent cloud drive （https://share.weiyun.com/zAVtLByF ， Extraction code：202264）. </br>
 
-Installation of LongRepMarker_v2.0 with conda
+Installation dependencies
 ==================================
-
-Install dependencies：
 >> gcc-multilib
 
+Installation of LongRepMarker_v2.0 with conda
+==================================
 
 >> 1> Download the source file of LongRepMarker_v2.0 from google cloud drive (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view) or tencent cloud drive (https://share.weiyun.com/zAVtLByF ， Extraction code：202264).</br>
 ----------------------------------------------------------------------</br>
