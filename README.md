@@ -34,6 +34,7 @@ Downloading LongRepMarker_v2.0
 Installation dependencies
 ==================================
 >> gcc-multilib
+>> sudo apt-get install gcc-multilib g++-multilib
 
 Installation of LongRepMarker_v2.0 with conda
 ==================================
