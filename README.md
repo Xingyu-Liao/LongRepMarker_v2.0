@@ -34,6 +34,10 @@ Downloading LongRepMarker_v2.0
 Installation of LongRepMarker_v2.0 with conda
 ==================================
 
+Install dependencies：
+>> gcc-multilib
+
+
 >> 1> Download the source file of LongRepMarker_v2.0 from google cloud drive (https://drive.google.com/file/d/1rH1Q1l2lgoH_3ctIv_EULisYDBUDc21v/view) or tencent cloud drive (https://share.weiyun.com/zAVtLByF ， Extraction code：202264).</br>
 ----------------------------------------------------------------------</br>
 >> 2> Decompress the "LongRepMarker_v2.0.zip" file.</br>
