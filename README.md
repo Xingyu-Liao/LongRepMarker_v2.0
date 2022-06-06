@@ -270,8 +270,8 @@ FAQs
 >> Solution : Install gcc-multilib: </br>
 >> Command: sudo apt-get install gcc-multilib g++-multilib </br>
 
-> 2> If the memory space of the device is less than 100G, it is recommended to set the value of parameter 't' to less than 8.<br>
+> 2> If the memory space of the device is less than 100G, it is recommended to set the value of the parameter 't' to less than 8.<br>
 >> Solution : -t 8 </br>
 
-> 3> If detection of tandem repeats is not required, set the parameter T to no.
+> 3> If detection of tandem repeats is not required, please set the value of the parameter 'T' to no.
 >> Solution : -T no </br>
