@@ -272,3 +272,6 @@ FAQ
 
 > 2> If the memory space of the device is less than 100G, it is recommended to set the value of parameter 't' to less than 8.<br>
 >> Solution : -t 8 </br>
+
+> 3> If detection of tandem repeats is not required, set the parameter T to no.
+>> Solution : -T no </br>
