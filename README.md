@@ -270,3 +270,4 @@ FAQ
 >> Solution : Install gcc-multilib: </br>
 >> Command: sudo apt-get install gcc-multilib g++-multilib </br>
 > 2> If the memory space of the device is less than 100G, it is recommended to set the value of parameter 't' to less than 8.<br>
+>> Solution : -t 8 </br>
