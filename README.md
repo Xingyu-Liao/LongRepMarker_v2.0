@@ -11,7 +11,7 @@ Improvements
 Latest Version (v2.1)
 ==============
 
-The latest version of LongRepMarker was released on github (https://github.com/Xingyu-Liao/LongRepMarker_v2.0), google drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/1sZuaQrK, Extraction code：202266) respectively on ‎June 6, 2022. 
+The latest version of LongRepMarker was released on google drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/1sZuaQrK, Extraction code：202266) respectively on ‎June 6, 2022. 
 
 
 Author
@@ -23,22 +23,22 @@ Computer, Electrical and Mathematical Sciences and Engineering Division, </br>
 King Abdullah University of Science and Technology (KAUST), </br>
 Thuwal, 23955, Saudi Arabia.  </br>
 
-Downloading LongRepMarker_v2.0 
+Downloading LongRepMarker_v2.1 
 ==================================
 
-<li>Download LongRepMarker_v2.0 from google or baidu cloud drive</li>
+<li>Download LongRepMarker_v2.1 from google or baidu cloud drive</li>
 
 >> google drive （https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or </br>
 >> tencent cloud drive （https://share.weiyun.com/1sZuaQrK, Extraction code：202266）. </br>
 
-Installation of LongRepMarker_v2.0 with conda
+Installation of LongRepMarker_v2.1 with conda
 ==================================
 
->> 1> Download the source file of LongRepMarker_v2.0 from google cloud drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or tencent cloud drive (https://share.weiyun.com/1sZuaQrK, Extraction code：202266).</br>
+>> 1> Download the source file of LongRepMarker_v2.1 from google cloud drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or tencent cloud drive (https://share.weiyun.com/1sZuaQrK, Extraction code：202266).</br>
 ----------------------------------------------------------------------</br>
->> 2> Decompress the "LongRepMarker_v2.0.zip" file.</br>
+>> 2> Decompress the "LongRepMarker_v2.1.zip" file.</br>
      <li>cd /data/zip                       &nbsp;&nbsp;&nbsp;     # for example, the compressed file is stored in the directory of "/data/zip".</br> 
-     <li>unzip ./LongRepMarker_v2.0.zip     &nbsp;&nbsp;&nbsp;     # decompresses the file named "LongRepMarker_v2.0.zip".</br>
+     <li>unzip ./LongRepMarker_v2.1.zip     &nbsp;&nbsp;&nbsp;     # decompresses the file named "LongRepMarker_v2.1.zip".</br>
 ----------------------------------------------------------------------</br>
 >> 3> Create a conda virtual environment.</br>
      <li>conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 zlib  pysam cmake zstd</br>
@@ -47,17 +47,17 @@ Installation of LongRepMarker_v2.0 with conda
      <li>conda activate TE </br>
 ----------------------------------------------------------------------</br>
 >> 5> Enter the working directory of LongRepMarker from the conda environment.</br>
-    <li>(TE)xingyu_liao@kw60204: cd /data/zip/LongRepMarker_v2.0   &nbsp;&nbsp;&nbsp;     #TE is the name of conda virtual environment. </br>
+    <li>(TE)xingyu_liao@kw60204: cd /data/zip/LongRepMarker_v2.1   &nbsp;&nbsp;&nbsp;     #TE is the name of conda virtual environment. </br>
 ----------------------------------------------------------------------</br>
->> 6> Install LongRepMarker_v2.0.</br>
-    <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.0: ./Makefile.sh </br>
+>> 6> Install LongRepMarker_v2.1.</br>
+    <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.1: ./Makefile.sh </br>
 
-Running of LongRepMarker_v2.0
+Running of LongRepMarker_v2.1
 ==================================
 	
 <li>Running command :</li></br>
 
->> cd /home/LongRepMarker_v2.0-master </br>
+>> cd /home/LongRepMarker_v2.1-master </br>
 
 >> java &nbsp;&nbsp;&nbsp; [MemConfig] &nbsp;&nbsp;&nbsp; LongRepMarker &nbsp;&nbsp;&nbsp; [options]</br>
 	
@@ -152,7 +152,7 @@ Running of LongRepMarker_v2.0
 >> 
 >> -help &nbsp;&nbsp;  <i><b>#Instructions for using command and parameters.</b></i></br>
 	
-### Examples of using LongRepMarker_v2.0 
+### Examples of using LongRepMarker_v2.1 
    
 >> <b><li>Reference-assisted mode</li></b>
 
@@ -218,44 +218,44 @@ Running of LongRepMarker_v2.0
 >> >> 
 >> <b><li>Generation of the masking reports (*.tbl) by using RepeatMasker &nbsp; </li></b>
 >> >>
->> >> cd  /home/LongRepMarker_v2.0-master/results/
+>> >> cd  /home/LongRepMarker_v2.1-master/results/
 >> >> 
 >> >> ./RepeatMasker.sh  
 >> >> 
->> >> Please note that this shell script can only be executed after the LongRepMarker_v2.0 has finished running. Additionally, the parameters '-species' and '-f' must be configured during the running of LongRepMarker_v2.0.
+>> >> Please note that this shell script can only be executed after the LongRepMarker_v2.1 has finished running. Additionally, the parameters '-species' and '-f' must be configured during the running of LongRepMarker_v2.1.
 >> >> 
 
-### Results produced by LongRepMarker_v2.0 
+### Results produced by LongRepMarker_v2.1 
  
 >> <b><li>The final detection results will be stored in the path specified by '-o'. </li> </b></br>
->> <b><li>If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.0-master/results'. </li> </b></br>
+>> <b><li>If the parameter '-o' is not configured, the final detection results will be stored in the path of '~/LongRepMarker_v2.1-master/results'. </li> </b></br>
 >> <b><li>The following detailed reports will be generated in the final detection results.</li></b></br>
 >> >><i><b>#A statistical report that records the alignment of the detected TE elements in the genome. </b></i> </br>
->> >>~/LongRepMarker_v2.0-master/results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/Alignment_report.info    &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#A statistical report that records the distribution of the detected TE elements in the genome.</b></i> </br>
->> >>~/LongRepMarker_v2.0-master/results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/Annotation_report.info    &nbsp;&nbsp;&nbsp; </br></br>
 >> >><i><b>#A statistical report that records the length distribution of the detected TE elements.</b></i> </br>
->> >>~/LongRepMarker_v2.0-master/results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/Size_report.info       &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#A report that records all the steps and prompts when the LongRepMarker algorithm runs.</b></i></br> 
->> >>~/LongRepMarker_v2.0-master/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
+>> >>~/LongRepMarker_v2.1-master/log/LongRepMarker.info       &nbsp;&nbsp;&nbsp; </br></br>
 >> >><i><b>#A statistical report that records the running time, memory, and disk consumption when the LongRepMarker algorithm runs.</b></i>  
->> >>~/LongRepMarker_v2.0-master/log/Time&Memory&Disk.info       &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/log/Time&Memory&Disk.info       &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#A statistical report that records the exceptions that occur while the LongRepMarker algorithm is running.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/log/Exception.info &nbsp;&nbsp;&nbsp; </br></br>
+>> >>~/LongRepMarker_v2.1-master/log/Exception.info &nbsp;&nbsp;&nbsp; </br></br>
 >> >><i><b>#Detected TEs and all their copies in the genome.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/results/multiRepeatCopies.fa         &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/multiRepeatCopies.fa         &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#A report that records the structural variations present in the detected TEs.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/multiRepeatCopies_sv.vcf         &nbsp;&nbsp;&nbsp;   </br></br>
 >> >><i><b>#TE consensus sequences.</b></i></br> 
->> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/TEconsensus.fa         &nbsp;&nbsp;&nbsp;   </br></br>
 >> >><i><b>#TE consensus sequences with classification information.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/results/TEconsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/TEconsensus.fa.classified   &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#Tandem repeats with location information.</b></i></br> 
->> >>~/LongRepMarker_v2.0-master/results/TandemRepeats.fa  &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/TandemRepeats.fa  &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#Tandem repeats masking results.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/results/genomeSeq_TandemRepeats.mask  &nbsp;&nbsp;&nbsp;  </br></br>
+>> >>~/LongRepMarker_v2.1-master/results/genomeSeq_TandemRepeats.mask  &nbsp;&nbsp;&nbsp;  </br></br>
 >> >><i><b>#All log files can be found in the following derictory.</b></i></br>
->> >>~/LongRepMarker_v2.0-master/log/   &nbsp;&nbsp;&nbsp;  </br></br>   
+>> >>~/LongRepMarker_v2.1-master/log/   &nbsp;&nbsp;&nbsp;  </br></br>   
 
 Citations 
 ==================================
