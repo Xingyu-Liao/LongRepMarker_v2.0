@@ -41,7 +41,7 @@ Installation of LongRepMarker_v2.1 with conda
      <li>unzip ./LongRepMarker_v2.1.zip     &nbsp;&nbsp;&nbsp;     # decompresses the file named "LongRepMarker_v2.1.zip".</br>
 ----------------------------------------------------------------------</br>
 >> 3> Create a conda virtual environment.</br>
-     <li>conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 zlib  pysam cmake zstd</br>
+     <li>conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 jdk=11.0.15 zlib  pysam cmake zstd</br>
 ----------------------------------------------------------------------</br>
 >> 4> Activate the conda environment.</br>
      <li>conda activate TE </br>
