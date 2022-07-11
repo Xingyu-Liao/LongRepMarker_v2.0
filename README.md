@@ -344,11 +344,127 @@ conda list
 	<td> h2d50403_0 </td>
 	<td>conda-forge </td>
     </tr>
-	
+    <tr>
+        <td>openssl </td>
+	<td>1.1.1q </td>
+	<td> h166bdaf_0 </td>
+	<td>conda-forge </td>
+    </tr>
+    <tr>
+        <td>perl  </td>
+	<td>5.32.1 </td>
+	<td> 2_h7f98852_perl5 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>pip  </td>
+	<td>20.0.2  </td>
+	<td> py_2 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>pysam  </td>
+	<td>0.19.1  </td>
+	<td> py38h8bf8b8d_0 </td>
+	<td>bioconda </td>
+    </tr>	
+    <tr>
+        <td>python </td>
+	<td>3.8.13 </td>
+	<td> h582c2e5_0_cpython </td>
+	<td> conda-forge</td>
+    </tr>	
+    <tr>
+        <td>python_abi</td>
+	<td> 3.8  </td>
+	<td> 2_cp38  </td>
+	<td> conda-forge</td>
+    </tr>	
+    <tr>
+        <td>readline </td>
+	<td> 8.1.2  </td>
+	<td> h0f457ee_0  </td>
+	<td> conda-forge</td>
+    </tr>
+    <tr>
+        <td>rhash </td>
+	<td>  1.4.3   </td>
+	<td> h166bdaf_0 </td>
+	<td> conda-forge</td>
+    </tr>	
+    <tr>
+        <td>samtools </td>
+	<td>  1.15.1   </td>
+	<td> h1170115_0 </td>
+	<td> bioconda </td>
+    </tr>	
+    <tr>
+        <td>setuptools </td>
+	<td>  63.1.0    </td>
+	<td> py38h578d9bd_0 </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td>spades </td>
+	<td> 3.15.4    </td>
+	<td> h95f258a_0 </td>
+	<td> bioconda </td>
+    </tr>	
+    <tr>
+        <td>sqlite </td>
+	<td> 3.39.0    </td>
+	<td>  h4ff8645_0 </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td> sysroot_linux-64  </td>
+	<td> 2.17    </td>
+	<td> h4a8ded7_13 </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td> tbb  </td>
+	<td> 2020.2   </td>
+	<td> h4bd325d_4 </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td> tk  </td>
+	<td> 8.6.12   </td>
+	<td> h27826a3_0 </td>
+	<td> conda-forge </td>
+    </tr>	
+    <tr>
+        <td> unzip   </td>
+	<td> 6.0   </td>
+	<td> h7f98852_3  </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td> wheel   </td>
+	<td> 0.37.1   </td>
+	<td> pyhd8ed1ab_0  </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td> xz    </td>
+	<td> 5.2.5   </td>
+	<td> h516909a_1 </td>
+	<td> conda-forge </td>
+    </tr>	
+    <tr>
+        <td> zlib   </td>
+	<td> 1.2.12   </td>
+	<td> h166bdaf_1 </td>
+	<td> conda-forge </td>
+    </tr>
+    <tr>
+        <td> zstd   </td>
+	<td> 1.5.2   </td>
+	<td> h8a70e8d_2 </td>
+	<td> conda-forge </td>
+    </tr>
 </table>
-
-
-
 
 
 Running of LongRepMarker_v2.1
