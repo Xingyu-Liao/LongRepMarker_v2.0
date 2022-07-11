@@ -54,146 +54,301 @@ Installation of LongRepMarker_v2.1 with conda
     
 conda list
 ==================================   
-    
->> (TE) xingyu_liao@kw60204:~$ conda list</br>
->> \# packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</br>
->> \# </br>
 
-| \# Name  |   Version   |   Build  | Channel |
+<table>
+    <tr>
+    <td colspan="4" >(TE) xingyu_liao@kw60204:~$ conda list</td>
+    </tr>
+    <tr>
+    <td colspan="4" >(TE) packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</td>
+    </tr>
+    <tr>
+        <td># Name </td>
+	<td># Version </td>
+	<td># Build </td>
+	<td># Channel </td>
+    </tr>
+    <tr>
+        <td>_libgcc_mutex</td>
+	<td>0.1 </td>
+	<td>conda_forge </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>_openmp_mutex</td>
+	<td>4.5 </td>
+	<td>2_gnu </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>_sysroot_linux-64_curr_repodata_hack</td>
+	<td>3 </td>
+	<td>h5bd9786_13 </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>_libgcc_mutex</td>
+	<td>0.1 </td>
+	<td>conda_forge </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>_openmp_mutex</td>
+	<td>4.5 </td>
+	<td>2_gnu </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>_sysroot_linux-64_curr_repodata_hack</td>
+	<td>3 </td>
+	<td>h5bd9786_13 </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>binutils_impl_linux-64</td>
+	<td>2.36.1 </td>
+	<td>h193b22a_2 </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>bowtie2</td>
+	<td>2.4.5 </td>
+	<td>py38hfbc8389_2 </td>
+	<td>bioconda</td>
+    </tr>
+    <tr>
+        <td>bwa</td>
+	<td>0.7.17 </td>
+	<td>h7132678_9 </td>
+	<td>bioconda</td>
+    </tr>
+    <tr>
+        <td>bzip2</td>
+	<td>1.0.8 </td>
+	<td>h7f98852_4 </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>c-ares</td>
+	<td>1.18.1  </td>
+	<td>h7f98852_0 </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>ca-certificates</td>
+	<td>2022.6.15   </td>
+	<td>ha878542_0 </td>
+	<td>conda-forge</td>
+    </tr>
+    <tr>
+        <td>cmake </td>
+	<td>3.23.2    </td>
+	<td>h5432695_0 </td>
+	<td>conda-forge</td>
+    </tr>	
+    <tr>
+        <td>expat </td>
+	<td>2.4.8     </td>
+	<td>h27087fc_0 </td>
+	<td>conda-forge</td>
+    </tr>	
+    <tr>
+        <td>gcc </td>
+	<td>10.3.0     </td>
+	<td>he2824d0_10 </td>
+	<td>conda-forge</td>
+    </tr>	
+    <tr>
+        <td>gcc_impl_linux-64 </td>
+	<td>10.3.0     </td>
+	<td>hf2f2afa_16 </td>
+	<td>conda-forge</td>
+    </tr>	
+    <tr>
+        <td>htslib  </td>
+	<td>1.15.1    </td>
+	<td>h9753748_0  </td>
+	<td>bioconda </td>
+    </tr>	
+    <tr>
+        <td>java-jdk </td>
+	<td>8.0.112    </td>
+	<td>1  </td>
+	<td>bioconda </td>
+    </tr>	
+    <tr>
+        <td>k8  </td>
+	<td>0.2.5    </td>
+	<td>hd03093a_2 </td>
+	<td>bioconda </td>
+    </tr>	
+    <tr>
+        <td>kernel-headers_linux-64 </td>
+	<td>3.10.0   </td>
+	<td>h4a8ded7_13 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>keyutils </td>
+	<td>1.6.1  </td>
+	<td>h166bdaf_0 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>krb5  </td>
+	<td>1.19.3  </td>
+	<td> h3790be6_0 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>ld_impl_linux-64   </td>
+	<td>2.36.1  </td>
+	<td> hea4e1c9_2  </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libcurl   </td>
+	<td>7.83.1  </td>
+	<td> h7bff187_0  </td>
+	<td>conda-forge </td>
+    </tr>
+    <tr>
+        <td>libdeflate   </td>
+	<td>1.10  </td>
+	<td> h7f98852_0 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libedit   </td>
+	<td>3.1.20191231 </td>
+	<td> he28a2e2_2 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libev   </td>
+	<td>4.33 </td>
+	<td> h516909a_1 </td>
+	<td>conda-forge </td>
+    </tr>
+    <tr>
+        <td>libffi  </td>
+	<td>3.4.2  </td>
+	<td>h7f98852_5 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libgcc-devel_linux-64 </td>
+	<td>10.3.0 </td>
+	<td> he6cfe16_16 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libgcc-ng</td>
+	<td>12.1.0 </td>
+	<td> h8d9b700_16  </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libgomp</td>
+	<td>12.1.0</td>
+	<td> h8d9b700_16  </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libnghttp2</td>
+	<td>1.47.0</td>
+	<td> h727a467_0  </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libnsl </td>
+	<td>2.0.0 </td>
+	<td> h7f98852_0 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libsanitizer  </td>
+	<td>10.3.0 </td>
+	<td> h26c7422_16 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libssh2  </td>
+	<td>1.10.0  </td>
+	<td> ha56f1ee_2 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libstdcxx-ng  </td>
+	<td>12.1.0   </td>
+	<td> ha89aaad_16 </td>
+	<td>conda-forge </td>
+    </tr>
+    <tr>
+        <td>libuuid  </td>
+	<td>2.32.1  </td>
+	<td> h7f98852_1000 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libuv  </td>
+	<td>1.43.0  </td>
+	<td> h7f98852_0 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>libzlib   </td>
+	<td>1.2.12  </td>
+	<td> h166bdaf_1 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>llvm-meta   </td>
+	<td> 7.0.0   </td>
+	<td> 0 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>lz4-c  </td>
+	<td> 1.9.3   </td>
+	<td> h9c3ff4c_1 </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>make  </td>
+	<td>4.2.1   </td>
+	<td>h14c3975_2004 </td>
+	<td>conda-forge </td>
+    </tr>		
+    <tr>
+        <td>minimap2  </td>
+	<td>2.24  </td>
+	<td>h7132678_1 </td>
+	<td>bioconda </td>
+    </tr>
+    <tr>
+        <td>ncurses   </td>
+	<td>6.3 </td>
+	<td> h27087fc_1  </td>
+	<td>conda-forge </td>
+    </tr>	
+    <tr>
+        <td>openjdk   </td>
+	<td>8.0.112 </td>
+	<td> zulu8.19.0.1_3  </td>
+	<td>conda-forge </td>
+    </tr>
+    <tr>
+        <td>openmp  </td>
+	<td>7.0.0 </td>
+	<td> h2d50403_0 </td>
+	<td>conda-forge </td>
+    </tr>
+	
+</table>
 
-| :-----：| ：----: | :----: |:----: |
 
-|  _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge | 
 
-|  _openmp_mutex  |      4.5     |     2_gnu  |  conda-forge | 
-
-|  _sysroot_linux-64_curr_repodata_hack  | 3  |  h5bd9786_13  | conda-forge | 
-
-|  _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge | 
-
-|  _openmp_mutex  |      4.5     |     2_gnu  |  conda-forge | 
-
-|  _sysroot_linux-64_curr_repodata_hack  | 3  |  h5bd9786_13  | conda-forge | 
-
-|  binutils_impl_linux-64  |  2.36.1  |    h193b22a_2  | conda-forge | 
-
-|  bowtie2        |            2.4.5     |        py38hfbc8389_2   |  bioconda | 
-
-|  bwa        |                0.7.17    |            h7132678_9 |    bioconda | 
-
-| bzip2         |            1.0.8      |          h7f98852_4  |  conda-forge |
-
-| c-ares         |           1.18.1       |        h7f98852_0  |  conda-forge |
-
-| ca-certificates   |        2022.6.15     |       ha878542_0  |  conda-forge |
-
-| cmake         |            3.23.2        |       h5432695_0  |  conda-forge |
-
-| expat         |            2.4.8         |       h27087fc_0  |  conda-forge |
-
-| gcc           |            10.3.0       |       he2824d0_10  |  conda-forge |
-
-| gcc_impl_linux-64   |      10.3.0       |       hf2f2afa_16  |  conda-forge |
-
-| htslib             |       1.15.1         |      h9753748_0  |  bioconda |
-
-| java-jdk         |         8.0.112       |                1  |  bioconda |
-
-| k8              |          0.2.5         |       hd03093a_2  |  bioconda |
-
-| kernel-headers_linux-64 |  3.10.0      |        h4a8ded7_13   | conda-forge |
-
-| keyutils            |      1.6.1        |        h166bdaf_0  |  conda-forge |
-
-| krb5                  |    1.19.3       |        h3790be6_0  |  conda-forge |
-
-| ld_impl_linux-64     |     2.36.1        |       hea4e1c9_2  |  conda-forge |
-
-| libcurl           |        7.83.1       |        h7bff187_0  |  conda-forge |
-
-| libdeflate       |         1.10          |       h7f98852_0  |  conda-forge |
-
-| libedit        |           3.1.20191231   |      he28a2e2_2  |  conda-forge |
-
-| libev           |          4.33          |       h516909a_1  |  conda-forge |
-
-| libffi           |         3.4.2         |       h7f98852_5  |  conda-forge |
-
-| libgcc-devel_linux-64   |  10.3.0        |      he6cfe16_16 |   conda-forge |
-
-| libgcc-ng         |        12.1.0        |      h8d9b700_16  |  conda-forge |
-
-| libgomp          |         12.1.0        |      h8d9b700_16  |  conda-forge |
-
-| libnghttp2        |        1.47.0       |        h727a467_0  |  conda-forge |
-
-| libnsl            |        2.0.0         |       h7f98852_0  |  conda-forge |
-
-| libsanitizer      |        10.3.0        |      h26c7422_16  |  conda-forge |
-
-| libssh2           |        1.10.0         |      ha56f1ee_2  |  conda-forge |
-
-| libstdcxx-ng       |       12.1.0        |      ha89aaad_16  |  conda-forge |
-
-| libuuid            |       2.32.1       |     h7f98852_1000  |  conda-forge |
-
-| libuv              |       1.43.0       |        h7f98852_0  |  conda-forge |
-
-| libzlib            |       1.2.12       |        h166bdaf_1  |  conda-forge |
-
-| llvm-meta          |       7.0.0       |                  0  |  conda-forge |
-
-| lz4-c             |        1.9.3        |        h9c3ff4c_1  |  conda-forge |
-
-| make               |       4.2.1       |      h14c3975_2004  |  conda-forge |
-
-| minimap2          |        2.24         |        h7132678_1  |  bioconda |
-
-| ncurses            |       6.3          |        h27087fc_1  |  conda-forge |
-
-| openjdk           |        8.0.112      |    zulu8.19.0.1_3  |  conda-forge |
-
-| openmp             |       7.0.0       |        h2d50403_0   | conda-forge |
-
-| openssl           |        1.1.1q     |          h166bdaf_0  |  conda-forge |
-
-| perl             |         5.32.1     |     2_h7f98852_perl5  |  conda-forge |
-
-| pip             |          20.0.2      |               py_2   | conda-forge |
-
-| pysam             |        0.19.1     |      py38h8bf8b8d_0  |  bioconda |
-
-| python            |        3.8.13      |    h582c2e5_0_cpython  |  conda-forge |
-
-| python_abi        |        3.8        |              2_cp38 |   conda-forge |
-
-| readline          |        8.1.2       |         h0f457ee_0  |  conda-forge |
-
-| rhash             |        1.4.3       |         h166bdaf_0  |  conda-forge |
-
-| samtools          |        1.15.1      |         h1170115_0  |  bioconda |
-
-| setuptools        |        63.1.0      |    py38h578d9bd_0   | conda-forge |
-
-| spades            |        3.15.4     |          h95f258a_0  |  bioconda |
-
-| sqlite            |        3.39.0     |          h4ff8645_0  |  conda-forge |
-
-| sysroot_linux-64  |        2.17        |        h4a8ded7_13  |  conda-forge |
-
-| tbb            |           2020.2      |         h4bd325d_4  |  conda-forge |
-
-| tk             |           8.6.12      |         h27826a3_0  |  conda-forge |
-
-| unzip         |            6.0         |         h7f98852_3  | conda-forge |
-
-| wheel         |            0.37.1      |       pyhd8ed1ab_0  |  conda-forge |
-
-| xz            |            5.2.5       |         h516909a_1  |  conda-forge |
-
-| zlib          |            1.2.12       |        h166bdaf_1  |  conda-forge |
-
-| zstd          |            1.5.2      |          h8a70e8d_2  |  conda-forge |
 
 
 Running of LongRepMarker_v2.1
