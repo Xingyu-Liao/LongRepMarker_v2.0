@@ -87,24 +87,6 @@ conda list
 	<td>conda-forge</td>
     </tr>
     <tr>
-        <td>_libgcc_mutex</td>
-	<td>0.1 </td>
-	<td>conda_forge </td>
-	<td>conda-forge</td>
-    </tr>
-    <tr>
-        <td>_openmp_mutex</td>
-	<td>4.5 </td>
-	<td>2_gnu </td>
-	<td>conda-forge</td>
-    </tr>
-    <tr>
-        <td>_sysroot_linux-64_curr_repodata_hack</td>
-	<td>3 </td>
-	<td>h5bd9786_13 </td>
-	<td>conda-forge</td>
-    </tr>
-    <tr>
         <td>binutils_impl_linux-64</td>
 	<td>2.36.1 </td>
 	<td>h193b22a_2 </td>
