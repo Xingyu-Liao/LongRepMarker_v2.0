@@ -56,11 +56,11 @@ conda list
 ==================================   
     
 >> (TE) xingyu_liao@kw60204:~$ conda list</br>
->> # packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</br>
->> # </br>
->> # Name                    Version                   Build  Channel </br>
->> _libgcc_mutex             0.1                 conda_forge    conda-forge </br>
->> _openmp_mutex             4.5                       2_gnu    conda-forge </br>
+>> \# packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</br>
+>> \# </br>
+>> \# Name         &emsp;           Version        &emsp;           Build  Channel </br>
+>> _libgcc_mutex       &emsp;      0.1          &emsp;       conda_forge    conda-forge </br>
+>> _openmp_mutex      &emsp;       4.5           &emsp;            2_gnu    conda-forge </br>
 >> _sysroot_linux-64_curr_repodata_hack 3                   h5bd9786_13    conda-forge </br>
 >> binutils_impl_linux-64    2.36.1               h193b22a_2    conda-forge </br>
 >> bowtie2                   2.4.5            py38hfbc8389_2    bioconda </br>
