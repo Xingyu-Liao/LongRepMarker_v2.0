@@ -50,7 +50,7 @@ Installation of LongRepMarker_v2.1.2 with conda
 >> 5> Install LongRepMarker_v2.1.</br>
     <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.1.2-master: ./Makefile.sh </br>
     
-conda list
+Conda List
 ==================================   
 
 <table>
