@@ -34,22 +34,20 @@ Downloading LongRepMarker_v2.1.2
 Installation of LongRepMarker_v2.1.2 with conda
 ==================================
 
->> 1> Download the source file of LongRepMarker_v2.1.2 from google cloud drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or tencent cloud drive (https://share.weiyun.com/3cHVaPfc, Extraction code：202275).</br>
-----------------------------------------------------------------------</br>
->> 2> Decompress the "LongRepMarker_v2.1.2.zip" file.</br>
+>> 1> Decompress the "LongRepMarker_v2.1.2-master.zip" file.</br>
      <li>cd /data/zip                       &nbsp;&nbsp;&nbsp;     # for example, the compressed file is stored in the directory of "/data/zip".</br> 
-     <li>unzip ./LongRepMarker_v2.1.2.zip     &nbsp;&nbsp;&nbsp;     # decompresses the file named "LongRepMarker_v2.1.zip".</br>
+     <li>unzip ./LongRepMarker_v2.1.2-master.zip     &nbsp;&nbsp;&nbsp;     # decompresses the file named "LongRepMarker_v2.1.2-master.zip".</br>
 ----------------------------------------------------------------------</br>
->> 3> Create a conda virtual environment.</br>
+>> 2> Create a conda virtual environment.</br>
      <li>conda create -n TE python=3.8 pip=20.0.2 perl=5.32.1 make=4.2 unzip gcc=10.3.0 java-jdk=8.0.112 zlib  pysam cmake zstd minimap2 samtools spades bwa bowtie2</br>
 ----------------------------------------------------------------------</br>
->> 4> Activate the conda environment.</br>
+>> 3> Activate the conda environment.</br>
      <li>conda activate TE </br>
 ----------------------------------------------------------------------</br>
->> 5> Enter the working directory of LongRepMarker from the conda environment.</br>
+>> 4> Enter the working directory of LongRepMarker from the conda environment.</br>
     <li>(TE)xingyu_liao@kw60204: cd /data/zip/LongRepMarker_v2.1.2-master   &nbsp;&nbsp;&nbsp;     #TE is the name of conda virtual environment. </br>
 ----------------------------------------------------------------------</br>
->> 6> Install LongRepMarker_v2.1.</br>
+>> 5> Install LongRepMarker_v2.1.</br>
     <li>(TE)xingyu_liao@kw60204:/data/zip/LongRepMarker_v2.1.2-master: ./Makefile.sh </br>
     
 conda list
