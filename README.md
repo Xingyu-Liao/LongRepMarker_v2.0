@@ -447,7 +447,7 @@ Conda List
 </table>
 
 
-Running of LongRepMarker_v2.1
+Running of LongRepMarker_v2.1.2
 ==================================
 	
 <li>Running command :</li></br>
