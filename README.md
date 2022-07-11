@@ -65,11 +65,10 @@ conda list
 
 |  _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge | 
 
-
 |  _openmp_mutex  |      4.5     |     2_gnu  |  conda-forge | 
 
-
 |  _sysroot_linux-64_curr_repodata_hack  | 3  |  h5bd9786_13  | conda-forge | 
+
 |  _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge | 
 
 |  _openmp_mutex  |      4.5     |     2_gnu  |  conda-forge | 
