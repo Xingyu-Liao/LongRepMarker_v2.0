@@ -8,7 +8,7 @@ Improvements
 >> ![image](https://user-images.githubusercontent.com/60574102/172210665-fdaacd92-c6a8-4b5c-8875-1617f1a66d4a.png)
 ==================================
 
-Latest Version (v2.1)
+Latest Version (v2.1.2)
 ==============
 
 The latest version of LongRepMarker was released on google drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/3cHVaPfc, Extraction code：202275) respectively on ‎June 6, 2022. 
