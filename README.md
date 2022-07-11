@@ -11,8 +11,7 @@ Improvements
 Latest Version (v2.1.2)
 ==============
 
-The latest version of LongRepMarker was released on google drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/2yrCnrAm, Extraction code：220711) respectively on ‎June 6, 2022. 
-
+The latest version of LongRepMarker was released on google drive (https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) and tencent cloud drive (https://share.weiyun.com/iC4vh1cj, Extraction code：220711) respectively on ‎June 6, 2022. 
 
 Author
 =======
@@ -29,7 +28,7 @@ Downloading LongRepMarker_v2.1.2
 <li>Download LongRepMarker_v2.1.2 from google or baidu cloud drive</li>
 
 >> google drive （https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or </br>
->> tencent cloud drive （https://share.weiyun.com/2yrCnrAm, Extraction code：220711）. </br>
+>> tencent cloud drive （https://share.weiyun.com/iC4vh1cj, Extraction code：220711）. </br>
 
 Installation of LongRepMarker_v2.1.2 with conda
 ==================================
