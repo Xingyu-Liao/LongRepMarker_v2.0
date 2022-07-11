@@ -29,7 +29,7 @@ Downloading LongRepMarker_v2.1.2
 <li>Download LongRepMarker_v2.1.2 from google or baidu cloud drive</li>
 
 >> google drive （https://drive.google.com/file/d/1KvC152P2i3gGcG055W5IrhZ_PctWpUam/view?usp=sharing) or </br>
->> tencent cloud drive （https://share.weiyun.com/3cHVaPfc, Extraction code：202275）. </br>
+>> tencent cloud drive （https://share.weiyun.com/2yrCnrAm, Extraction code：220711）. </br>
 
 Installation of LongRepMarker_v2.1.2 with conda
 ==================================
@@ -547,7 +547,7 @@ Running of LongRepMarker_v2.1.2
 >> 
 >> -help &nbsp;&nbsp;  <i><b>#Instructions for using command and parameters.</b></i></br>
 	
-### Examples of using LongRepMarker_v2.1 
+### Examples of using LongRepMarker_v2.1.2 
    
 >> <b><li>Reference-assisted mode</li></b>
 
