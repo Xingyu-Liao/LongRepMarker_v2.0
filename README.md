@@ -59,8 +59,9 @@ conda list
 >> \# packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</br>
 >> \# </br>
 | \# Name  |   Version   |   Build  | Channel |
+| :-----：| ：----: | :----: |:----: |
 |  _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge | 
-|  _openmp_mutex  |      4.5     |          2_gnu  |  conda-forge | 
+|  _openmp_mutex  |      4.5     |     2_gnu  |  conda-forge | 
 |  _sysroot_linux-64_curr_repodata_hack  | 3  |  h5bd9786_13  | conda-forge | 
 |  binutils_impl_linux-64  |  2.36.1  |    h193b22a_2  | conda-forge | 
 |  bowtie2        |            2.4.5     |        py38hfbc8389_2   |  bioconda | 
