@@ -58,13 +58,13 @@ conda list
 >> (TE) xingyu_liao@kw60204:~$ conda list</br>
 >> \# packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</br>
 >> \# </br>
->> \# Name  |   Version   |   Build  | Channel </br>
->> _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge </br>
->> _openmp_mutex  |      4.5     |          2_gnu  |  conda-forge </br>
->> _sysroot_linux-64_curr_repodata_hack  | 3  |  h5bd9786_13  | conda-forge </br>
->> binutils_impl_linux-64  |  2.36.1  |    h193b22a_2  | conda-forge </br>
->> bowtie2                   2.4.5            py38hfbc8389_2    bioconda </br>
->> bwa                       0.7.17               h7132678_9    bioconda </br>
+| \# Name  |   Version   |   Build  | Channel |
+|  _libgcc_mutex   |   0.1   |    conda_forge  |  conda-forge | 
+|  _openmp_mutex  |      4.5     |          2_gnu  |  conda-forge | 
+|  _sysroot_linux-64_curr_repodata_hack  | 3  |  h5bd9786_13  | conda-forge | 
+|  binutils_impl_linux-64  |  2.36.1  |    h193b22a_2  | conda-forge | 
+|  bowtie2        |            2.4.5     |        py38hfbc8389_2   |  bioconda | 
+|  bwa        |                0.7.17    |            h7132678_9 |    bioconda | 
 >> bzip2                     1.0.8                h7f98852_4    conda-forge </br>
 >> c-ares                    1.18.1               h7f98852_0    conda-forge </br>
 >> ca-certificates           2022.6.15            ha878542_0    conda-forge </br>
