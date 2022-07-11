@@ -58,11 +58,11 @@ conda list
 >> (TE) xingyu_liao@kw60204:~$ conda list</br>
 >> \# packages in environment at /home/xingyu_liao/miniconda3/envs/TE:</br>
 >> \# </br>
->> \# Name             &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;        Version        &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;       Build  Channel </br>
->> _libgcc_mutex       &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;      0.1         &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;       conda_forge    conda-forge </br>
->> _openmp_mutex       &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;      4.5           &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;           2_gnu    conda-forge </br>
->> _sysroot_linux-64_curr_repodata_hack 3          &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;         &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;  conda-forge </br>
->> binutils_impl_linux-64  &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;  2.36.1      &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;       h193b22a_2  &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;  conda-forge </br>
+>> \# Name  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;    Version   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;   Build  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Channel </br>
+>> _libgcc_mutex  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;   0.1   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;    conda_forge  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  conda-forge </br>
+>> _openmp_mutex  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;      4.5     &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;          2_gnu   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  conda-forge </br>
+>> _sysroot_linux-64_curr_repodata_hack  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 3  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  h5bd9786_13   &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; conda-forge </br>
+>> binutils_impl_linux-64  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  2.36.1  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;      h193b22a_2  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; conda-forge </br>
 >> bowtie2                   2.4.5            py38hfbc8389_2    bioconda </br>
 >> bwa                       0.7.17               h7132678_9    bioconda </br>
 >> bzip2                     1.0.8                h7f98852_4    conda-forge </br>
